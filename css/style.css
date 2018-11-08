@@ -1,0 +1,168 @@
+/*------------------------------------------------------------Fonts */
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700');
+/*---------------------------------------------Jumbotron*/
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
+/*---------------------------------------------Fonts, Text Stylings, Block Dividers*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.block-divider--yellow {
+    background-color: #FFFF00;
+    font-weight: 5px;
+}
+
+.block-divider--red {
+    background-color: #FF0000;
+    font-weight: 5px;
+}
+
+/*---------------------------------------------Homepage Callout*/
+.callout-container {
+    height: 100vh;
+    font-family: 'Acme', sans-serif;
+    background: url("http://i65.tinypic.com/3008dxg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.callout-container-left {
+    background: url("http://i66.tinypic.com/f4juax.jpg") no-repeat center center fixed;
+    font-family: 'Acme', sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*---------------------------------------------Navbar*/
+.branding {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.navbar-header {
+    background-color: #FFFF00;
+    color: #FF0000;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
