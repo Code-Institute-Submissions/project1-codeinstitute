@@ -125,4 +125,5 @@ The photo used on the left of callout container came from Pixabay.com
 I also used the logo from https://commons.wikimedia.org/wiki/File:Monkees-logo.png too. 
 Acknowledgements
 I received inspiration for this project from ChrisStapleton.com, TheVinyls.ie,
-
+The callout container on the homepage was inspired by the Whiskey Drop lessons from the Code Institute lessons. 
+BrandColors.net was used to help me get the correct colors for the respective social media logos on the homepage. 

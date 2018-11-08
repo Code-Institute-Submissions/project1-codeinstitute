@@ -47,6 +47,49 @@
 .band-name {
     font-family:'Spicy+Rice', sans-serif; 
 }
+
+/*---------------------------------------------Social Media/Follow Us Section*/
+.social-media-header {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.social-media-icons {
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+}
+.spotify {
+    color: #1db954;
+}
+
+.facebook {
+  color: #3b5998;  
+}
+
+.apple {
+   color: #000000; 
+}
+
+.instagram {
+  color: #c13584;  
+}
+
+.amazon {
+  color: #ff9900;  
+}
+
+.snapchat {
+  color: #fffc00;  
+}
+
+.youtube {
+  color: #ff0000;  
+}
+
+.twitter {
+ color: #1da1f2;  
+}
 /*---------------------------------------------Homepage Callout*/
 .callout-container {
     min-height: 360px;
