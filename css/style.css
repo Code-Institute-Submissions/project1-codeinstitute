@@ -1,6 +1,108 @@
 /*------------------------------------------------------------Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700');
+
+/*---------------------------------------------Navbar*/
+
+
+.navbar a {
+    color: #FF0000;
+    text-align: center;
+}
+
+.navbar-header {
+    background-color: #FFFF00;
+    color: #FF0000;
+    font-family: 'Spicy Rice', sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #FFFF00;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #FF0000;
+    font-size: 30px;
+}
+
+.navbar .navbar-brand:hover {
+    transition: ease-in-out 0.3s;
+    font-size: 32px;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: red;
+    background: transparent;
+    
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: color: #FF0000;
+    border-color: #df4929;
+    color: white;
+}
+
+.options {
+   transition: 0.6s;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Spicy Rice', sans-serif;
+  text-decoration: none;
+  border-right: 2px dotted transparent;
+  padding: 5px 8px 0 5px;
+  margin: 0 10px;
+}
+.options:hover {
+  border-right: 2px dotted #ffffff;
+  }
+
+
 /*---------------------------------------------Jumbotron*/
 
 .jumbotron {
@@ -56,7 +158,10 @@
 }
 
 /*---------------------------------------------Social Media/Follow Us Section*/
-
+.tablet-sm-btns a{
+    text-align: justify;
+    padding: 5px;
+}
 
 .social-media-header {
     text-align: center;
@@ -67,6 +172,12 @@
 .social-media-icons {
     font-size: 70px;
     padding: 10px;
+    padding-right: 10px
+    text-align: center;
+}
+.phone-sm-btns {
+    font-size: 30px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -156,98 +267,6 @@
 }
 
 
-/*---------------------------------------------Navbar*/
-
-.branding {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-}
-
-.navbar a {
-    color: #FF0000;
-    text-align: center;
-}
-
-.navbar-header {
-    background-color: #FFFF00;
-    color: #FF0000;
-    font-family: 'Spicy Rice', sans-serif;
-    font-size: large;
-    font-weight: 500;
-}
-
-.navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: #FFFF00;
-    border: 0;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-    border: 0;
-}
-
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-
-.navbar .navbar-brand {
-    font-weight: bold;
-    color: #FF0000;
-}
-
-.navbar .navbar-brand:hover {
-    color: white;
-}
-
-.navbar ul {
-    text-align: center;
-}
-
-.navbar-default .navbar-nav a {
-    font-weight: bold;
-    color: #FF0000;
-
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    background: transparent;
-}
-
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-    color: white;
-}
-
-.navbar-btn {
-    border: 0;
-    border-radius: 16px;
-    width: 100px;
-    background-color: #f05f40;
-    color: white;
-}
-
-.navbar-btn:hover {
-    background-color: color: #FF0000;
-    border-color: #df4929;
-    color: white;
-}
 
 /*---------------------------------------------*/
 

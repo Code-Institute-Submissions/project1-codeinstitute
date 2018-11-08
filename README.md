@@ -127,3 +127,5 @@ Acknowledgements
 I received inspiration for this project from ChrisStapleton.com, TheVinyls.ie,
 The callout container on the homepage was inspired by the Whiskey Drop lessons from the Code Institute lessons. 
 BrandColors.net was used to help me get the correct colors for the respective social media logos on the homepage. 
+
+The hover effect used for navbar (classed as .options) can be credited to CodePen user 'Caloumi' and can be found here - https://codepen.io/Calloumi/pen/vndlH.

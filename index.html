@@ -26,12 +26,12 @@
             </div>
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav options">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="">Tour Dates</a></li>
-                    <li><a href="">Bookings</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Photos</a></li>
-                    <li><a href="">Our Music</a></li>
+                    <li class="active"><a class="options" href="index.html">Home</a></li>
+                    <li class="active"><a class="options" href="/">Tour Dates</a></li>
+                    <li class="active"><a class="options" href="/">Bookings</a></li>
+                    <li class="active"><a class="options" href="/">News</a></li>
+                    <li class="active"><a class="options" href="/">Photos</a></li>
+                    <li class="active"><a class="options" href="/">Our Music</a></li>
                 </ul>
             </div>
         </div>
@@ -62,9 +62,26 @@
     </div>
     <!-------------------------------------Homepage Media-->
     <div>
-        <div class="col-xs-6 col-md-2">
-            <!-------------------------------------Social Media Buttons -->
-            
+
+        <!-------------------------------------Music Player -->
+        <div class="col-xs-12 col-md-5 container-wrapper--red">
+            <section class="listen">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="listen-header">
+                            <h2 class="uppercase" style="font-family:Spicy Rice">Listen</h2>
+                            <hr class="block-divider block-divider--short block-divider--short-yellow">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p align="center"><iframe src="https://open.spotify.com/embed/artist/320EPCSEezHt1rtbfwH6Ck" width="80%" height="380" frameborder="10" allowtransparency="true" allow="encrypted-media"></iframe></p>
+                </div>
+            </section>
+        </div>
+        <!-- End of Music Player-->
+         <!-------------------------------------Social Media Buttons Desktop and Landscape Orientation-->
+<div class="col-md-2 hidden-sm hidden-xs">
             <section class="social-media">
                 <div class="row">
                     <div class="col-xs-12">
@@ -109,27 +126,66 @@
             </section>
         </div>
     </div>
-            <!-- End of Social Media Buttons-->
-<!-------------------------------------Music Player -->
-<div class="col-xs-6 col-md-5 container-wrapper--red">
-    <section class="listen">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="listen-header">
-                    <h2 class="uppercase" style="font-family:Spicy Rice">Listen</h2>
-                    <hr class="block-divider block-divider--short block-divider--short-yellow">
+    <!-------------------------------------For Tablet Screens in Portrait-->
+<div class="col-sm-12 hidden-xs hidden-md hidden-lg hidden-xl">
+            <section class="social-media">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="social-media-header">
+                            <h2 class="uppercase" style="font-family:Spicy Rice">Follow Us</h2>
+                            <hr class="block-divider block-divider--short">
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-sm-12 tablet-sm-btns">
+                        <a class="spotify" target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="social-media-icons fa fa-spotify" aria-hidden="true"></i></a>
+                        <a class="apple" target="_blank" href="/"><i class="social-media-icons fa fa-apple" aria-hidden="true"></i></a>
+                        <a class="amazon" target="_blank" href="https://www.amazon.com/The-Monkees/e/B000APSYTO"><i class="social-media-icons fa fa-amazon" aria-hidden="true"></i></a>
+                        <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="social-media-icons fa fa-youtube" aria-hidden="true"></i></a>
+                        <a class="facebook" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="social-media-icons fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="instagram" target="_blank" href="/"><i class="social-media-icons fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="snapchat" target="_blank" href="https://www.snapchat.com/"><i class="social-media-icons fa fa-snapchat" aria-hidden="true"></i></a>
+                        <a class="twitter" target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="social-media-icons fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+            </section>
         </div>
-        <div class="row">
-            <p align="center"><iframe src="https://open.spotify.com/embed/artist/320EPCSEezHt1rtbfwH6Ck" width="80%" height="380" frameborder="10" allowtransparency="true" allow="encrypted-media"></iframe></p>
+    </div>
+    
+    <!-------------------------------------For Phone Screens in Portrait-->
+<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
+            <section class="social-media">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="social-media-header">
+                            <h2 class="uppercase" style="font-family:Spicy Rice">Follow Us</h2>
+                            <hr class="block-divider block-divider--short">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 phone-sm-btns">
+                        <p align="center">
+                            <a class="spotify" target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="social-media-icons fa fa-spotify" aria-hidden="true"></i></a>
+                            <a class="apple" target="_blank" href="/"><i class="social-media-icons fa fa-apple" aria-hidden="true"></i></a>
+                            <a class="amazon" target="_blank" href="https://www.amazon.com/The-Monkees/e/B000APSYTO"><i class="social-media-icons fa fa-amazon" aria-hidden="true"></i></a>
+                            <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="social-media-icons fa fa-youtube" aria-hidden="true"></i></a>
+                        </p>
+                        <p align="center">
+                            <a class="facebook" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="social-media-icons fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="instagram" target="_blank" href="/"><i class="social-media-icons fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="snapchat" target="_blank" href="https://www.snapchat.com/"><i class="social-media-icons fa fa-snapchat" aria-hidden="true"></i></a>
+                            <a class="twitter" target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="social-media-icons fa fa-twitter" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+            </section>
         </div>
-    </section>
-</div>
-        <!-- End of Music Player-->
-        <!-------------------------------------Youtube--> 
-        <div class="col-xs-6 col-md-5 container-wrapper--yellow">
-         <section class="watch">
+    </div>
+    <!-- End of Social Media Buttons-->
+    
+        <!-------------------------------------Youtube-->
+        <div class="col-xs-12 col-md-5 container-wrapper--yellow">
+            <section class="watch">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="watch-header">
@@ -138,11 +194,11 @@
                         </div>
                     </div>
                 </div>
-            <p align="center"><iframe width="90%" height="380" src="https://www.youtube.com/embed/KyqKwAVDPVg" frameborder="10" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                <p align="center"><iframe width="90%" height="380" src="https://www.youtube.com/embed/KyqKwAVDPVg" frameborder="10" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
         </div>
         <!--End of Youtube-->
-    
-    
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>       
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 <footer>
