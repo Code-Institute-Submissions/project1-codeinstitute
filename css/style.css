@@ -1,6 +1,8 @@
 /*------------------------------------------------------------Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700');
 /*---------------------------------------------Jumbotron*/
+
 .jumbotron {
     background-color: transparent;
 }
@@ -9,7 +11,8 @@
     color: white;
     margin-bottom: 30px;
     color: white;
-    }
+    width: 100%;
+}
 
 .jumbotron .lead {
     color: #FFFF00;
@@ -20,6 +23,11 @@
 
 
 /*---------------------------------------------Fonts, Text Stylings, Block Dividers, Buttons*/
+.container-wrapper--grey {
+    background-color: #FF0000;
+    color: #FFFFFF;
+   }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -35,62 +43,77 @@
     font-weight: 20px;
     width: 60px;
 }
+
 .btn--red {
-  background-color: #FF0000; 
-  color: #FFFFFF;
+    background-color: #FF0000;
+    color: #FFFFFF;
 }
 
 .btn--yellow {
-  background-color: #FFFF00; 
-  color: #FFFFFF;
+    background-color: #FFFF00;
+    color: #FFFFFF;
 }
+
 .band-name {
-    font-family:'Spicy+Rice', sans-serif; 
+    font-family: 'Spicy+Rice', sans-serif;
 }
 
 /*---------------------------------------------Social Media/Follow Us Section*/
+
 .social-media-header {
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
 .social-media-icons {
     font-size: 70px;
     padding: 10px;
     text-align: center;
 }
+
 .spotify {
     color: #1db954;
 }
 
 .facebook {
-  color: #3b5998;  
+    color: #3b5998;
 }
 
 .apple {
-   color: #000000; 
+    color: #000000;
 }
 
 .instagram {
-  color: #c13584;  
+    color: #c13584;
 }
 
 .amazon {
-  color: #ff9900;  
+    color: #ff9900;
 }
 
 .snapchat {
-  color: #fffc00;  
+    color: #fffc00;
 }
 
 .youtube {
-  color: #ff0000;  
+    color: #ff0000;
 }
 
 .twitter {
- color: #1da1f2;  
+    color: #1da1f2;
 }
+
+/*---------------------------------------------Listen Section*/
+
+.listen-header {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 /*---------------------------------------------Homepage Callout*/
+
 .callout-container {
     min-height: 360px;
     font-family: 'Acme', sans-serif;
@@ -119,14 +142,18 @@
 
 
 /*---------------------------------------------Navbar*/
+
 .branding {
     width: 200px;
     height: 200px;
     object-fit: contain;
 }
-.navbar a{
+
+.navbar a {
     color: #FF0000;
+    text-align: center;
 }
+
 .navbar-header {
     background-color: #FFFF00;
     color: #FF0000;
@@ -144,7 +171,6 @@
     z-index: 1;
     background-color: #FFFF00;
     border: 0;
-    
 }
 
 .navbar-default .navbar-collapse {
@@ -172,9 +198,14 @@
     color: white;
 }
 
+.navbar ul {
+    text-align: center;
+}
+
 .navbar-default .navbar-nav a {
     font-weight: bold;
     color: #FF0000;
+
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -205,13 +236,8 @@
 
 /*---------------------------------------------*/
 
+/*---------------------------------------------*/
 
 /*---------------------------------------------*/
 
-
 /*---------------------------------------------*/
-
-
-/*---------------------------------------------*/
-
-
