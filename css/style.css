@@ -45,7 +45,12 @@
     color: #FF0000;
     font-size: 30px;
 }
-
+.navbar-brand-sm {
+   font-weight: bold;
+    color: #FF0000;
+    font-size: 20px; 
+    font-family: 'Spicy Rice', sans-serif;
+}
 .navbar .navbar-brand:hover {
     transition: ease-in-out 0.3s;
     font-size: 32px;
@@ -102,6 +107,10 @@
   border-right: 2px dotted #ffffff;
   }
 
+.options-sm {
+    font-size: 15px;
+    font-family: 'Spicy Rice', sans-serif;
+}
 
 /*---------------------------------------------Jumbotron*/
 
@@ -133,13 +142,13 @@
 
 .block-divider--yellow {
     background-color: #FFFF00;
-    font-weight: 20px;
+    font-weight: 200;
     width: 60px;
 }
 
 .block-divider--red {
     background-color: #FF0000;
-    font-weight: 20px;
+    font-weight: 200;
     width: 60px;
 }
 
@@ -158,6 +167,14 @@
 }
 
 /*---------------------------------------------Social Media/Follow Us Section*/
+.social-media {
+    background-color: #FFFFFF;
+    }
+.wrapper-sm {
+    background-color: #FFFFFF;
+    height: 500px;
+}
+
 .tablet-sm-btns a{
     text-align: justify;
     padding: 5px;
@@ -172,7 +189,7 @@
 .social-media-icons {
     font-size: 70px;
     padding: 10px;
-    padding-right: 10px
+    padding-right: 10px;
     text-align: center;
 }
 .phone-sm-btns {
@@ -268,8 +285,22 @@
 
 
 
-/*---------------------------------------------*/
+/*---------------------------------------------Footer*/
 
+footer{
+    background-color: #DCDCDC;
+    color: #000000;
+    min-height: 120px
+    padding: 15px 0px 15px 0px;
+    margin-top: auto;
+   }
+
+.contact-envelope {
+    font-size: 25px;
+}
+.social-links {
+    font-size: 25px;
+}
 /*---------------------------------------------*/
 
 /*---------------------------------------------*/
