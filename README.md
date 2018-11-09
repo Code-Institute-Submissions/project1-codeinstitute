@@ -129,3 +129,5 @@ The callout container on the homepage was inspired by the Whiskey Drop lessons f
 BrandColors.net was used to help me get the correct colors for the respective social media logos on the homepage. 
 
 The hover effect used for navbar (classed as .options) can be credited to CodePen user 'Caloumi' and can be found here - https://codepen.io/Calloumi/pen/vndlH.
+
+Facts about The Monkees (seen on 'Our Music' page) were copied from their respective Wikipedia pages and are credited below each article. 
