@@ -119,6 +119,7 @@ Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
+
 The photos used in this site were obtained from ...
 The photo used for the homepage was obtained from https://commons.wikimedia.org/wiki/File:The_Monkees.jpg
 The photo used on the left of callout container came from Pixabay.com

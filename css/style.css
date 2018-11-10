@@ -109,7 +109,9 @@ body {
   border-right: 2px dotted #ffffff;
   }
 
-
+.below-navbar {
+    padding-top: 30px;
+}
 
 /*---------------------------------------------Jumbotron*/
 
@@ -133,7 +135,9 @@ body {
 
 
 /*---------------------------------------------Fonts, Text Stylings, Block Dividers, Buttons*/
-
+.section-header {
+  color:#FF0000;  
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -289,7 +293,6 @@ body {
 footer{
     background-color: #DCDCDC;
     color: #000000;
-    min-height: 120px
     padding: 15px 0px 15px 0px;
     margin-top: auto;
    }
@@ -312,8 +315,23 @@ footer{
     background-color: #FFFF00;
     color: #FFFFFF;
     text-align: center;
+    }
+
+.history-wrapper1 {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    height:925px;
+    
 }
 
+.history-wrapper2 {
+    background-color: #FFFF00;
+    color: #FFFFFF;
+    text-align: center;
+    height:925px;
+    
+}
 .our-music-header {
     color:#FF0000;
 }
@@ -333,6 +351,75 @@ footer{
 .wikipedia-credit a {
     color: #000000;
     }
+/*---------------------------------------------Photos*/
+.image-row {
+    padding: 16px;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 4px solid #FFFF00;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #FFFF00;
+  color: #FF0000;
+  font-size: 22px;
+  padding: 8px 16px;
+  font-family: 'Acme', sans-serif;
+  font-weight: 400;
+  }
+
 /*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
 
 /*---------------------------------------------*/
