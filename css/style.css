@@ -117,13 +117,14 @@ body {
 
 .jumbotron {
     background-color: transparent;
-}
+    }
 
 .jumbotron h1 {
     color: white;
     margin-bottom: 30px;
     color: white;
     width: 100%;
+    
 }
 
 .jumbotron .lead {
@@ -163,8 +164,20 @@ body {
 .btn--yellow {
     background-color: #FFFF00;
     color: #FFFFFF;
+    }
+.btn--yellow2 {
+    background-color: #FFFF00;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Spicy+Rice', sans-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px #FFFFFF;
 }
-
+.button-to-bottom {
+    padding-bottom: 6px;
+    padding-top: 78px;
+}
 .band-name {
     font-family: 'Spicy+Rice', sans-serif;
 }
@@ -272,9 +285,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-}
+    }
 
 
 .opaque-overlay {
@@ -398,8 +410,25 @@ footer{
   font-weight: 400;
   }
 
-/*---------------------------------------------*/
+/*---------------------------------------------Bookings Page*/
+.wrapper-red {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    height: 400px;
+}
+.wrapper-yellow {
+    background-color: #FFFF00;
+    color: #FFFFFF;
+    height: 400px;
+}
 
+.list-items {
+    font-size: 26px;
+}
+
+.bookinglist {
+    text-align: center;
+}
 
 /*---------------------------------------------*/
 
