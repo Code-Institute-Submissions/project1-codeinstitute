@@ -6,6 +6,8 @@
 
 body {
     padding-top: 60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .navbar a {
@@ -31,6 +33,11 @@ body {
     border: 0;
 }
 
+/*
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -150px;
+    margin-left: -15px;
+}
 .navbar-default .navbar-collapse {
     border-color: transparent;
 }
@@ -42,7 +49,7 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
-
+*/
 .navbar .navbar-brand {
     font-weight: bold;
     color: #FF0000;
@@ -57,8 +64,12 @@ body {
 }
 
 .navbar .navbar-brand:hover {
-    transition: ease-in-out 0.3s;
-    font-size: 32px;
+    transition: ease-in-out 0.6s;
+    font-size: 30px;
+    color: #8B0000;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
 }
 
 .navbar ul {
@@ -98,7 +109,7 @@ body {
     color: white;
 }
 
-.options {
+.options1 {
     transition: 0.6s;
     color: #ffffff;
     font-size: 20px;
@@ -109,8 +120,107 @@ body {
     margin: 0 10px;
 }
 
-.options:hover {
-    border-right: 2px dotted #ffffff;
+.options1:hover {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.6s;
+}
+
+.options2 {
+    transition: 0.6s;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Spicy Rice', sans-serif;
+    text-decoration: none;
+    border-right: 2px dotted transparent;
+    padding: 5px 8px 0 5px;
+    margin: 0 10px;
+}
+
+.options2:hover {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.6s;
+}
+
+.options3 {
+    transition: 0.6s;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Spicy Rice', sans-serif;
+    text-decoration: none;
+    border-right: 2px dotted transparent;
+    padding: 5px 8px 0 5px;
+    margin: 0 10px;
+}
+
+.options3:hover {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.6s;
+}
+
+.options4 {
+    transition: 0.6s;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Spicy Rice', sans-serif;
+    text-decoration: none;
+    border-right: 2px dotted transparent;
+    padding: 5px 8px 0 5px;
+    margin: 0 10px;
+}
+
+.options4:hover {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.6s;
+}
+
+.options5 {
+    transition: 0.6s;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Spicy Rice', sans-serif;
+    text-decoration: none;
+    border-right: 2px dotted transparent;
+    padding: 5px 8px 0 5px;
+    margin: 0 10px;
+}
+
+.options5:hover {
+   -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.6s;
+}
+
+.options6 {
+    transition: 0.6s;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Spicy Rice', sans-serif;
+    text-decoration: none;
+    border-right: 2px dotted transparent;
+    padding: 5px 8px 0 5px;
+    margin: 0 10px;
+}
+
+.options6:hover {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    transform: rotate(-5deg);
+    color: white;
+    transition: 0.6s;
 }
 
 .below-navbar {
@@ -124,7 +234,9 @@ footer {
     color: #000000;
     padding: 15px 0px 15px 0px;
     margin-top: auto;
-}
+    margin-bottom: auto;
+    margin-right: 0;
+    }
 
 
 .contact-envelope {
@@ -356,7 +468,7 @@ footer {
 
 .history-wrapper1 {
     background-color: #FF0000;
-    color: #FFFFFF;
+    color: #FFFF00;
     text-align: center;
     height: 925px;
 
@@ -364,10 +476,23 @@ footer {
 
 .history-wrapper2 {
     background-color: #FFFF00;
-    color: #FFFFFF;
+    color: #FF0000;
     text-align: center;
     height: 925px;
 
+}
+.history-wrapper-smred {
+    background-color: #FF0000;
+    color: #FFFF00;
+    text-align: center;
+    height: 750px;
+}
+
+.history-wrapper-smyellow {
+    background-color: #FFFF00;
+    color: #FF0000;
+    text-align: center;
+    height: 750px;
 }
 
 .our-music-header {
@@ -499,11 +624,40 @@ th {
     font-family: 'Acme', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    }
+
+.tickets {
+    color: #FF0000;
 }
 
-/*---------------------------------------------*/
+.tickets:hover {
+    color: #FFFF00;
+}
 
+/*---------------------------------------------News Page*/
+.news-headline {
+    font-family: 'Acme', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    }
 
+.news-item {
+font-family: 'Acme', sans-serif;
+font-size: 20px;
+}
+.newswrapper-red {
+ background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 5px 10px 5px 10px;
+    margin-right: 0px;
+    }
+
+.storywrapper-yellow {
+  background-color: #FFFF00;
+    color: #000000; 
+    padding: 5px 20px 5px 20px;
+    margin-right: 0px;
+}
 /*---------------------------------------------*/
 
 

@@ -2,11 +2,12 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial scale-1">
 </head>
 
 <body>
@@ -29,44 +30,74 @@
             </div>
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav options">
-                    <li class="active"><a class="options" href="index.html">Home</a></li>
-                    <li class="active"><a class="options" href="tour-dates.html">Tour Dates</a></li>
-                    <li class="active"><a class="options" href="bookings.html">Bookings</a></li>
-                    <li class="active hidden-sm"><a class="options" href="news.html">News</a></li>
-                    <li class="active"><a class="options" href="photos.html">Photos</a></li>
-                    <li class="active"><a class="options" href="our-music.html">Our Music</a></li>
+                    <li class="active"><a class="options1" href="index.html">Home</a></li>
+                    <li class="active"><a class="options2" href="tour-dates.html">Tour Dates</a></li>
+                    <li class="active"><a class="options3" href="bookings.html">Bookings</a></li>
+                    <li class="active hidden-sm"><a class="options4" href="news.html">News</a></li>
+                    <li class="active"><a class="options5" href="photos.html">Photos</a></li>
+                    <li class="active"><a class="options6" href="our-music.html">Our Music</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 <!--End of header & navigation bar-->
 <section>
- <h1>News</h1>   
+ <div class="row">
+        <div class="our-music-header uppercase">
+            <h1 align="center"><span style="font-family:Spicy Rice">News</span></h1>
+        </div>
+</div> 
+<div class="row newswrapper-red news-headline">
+    <h2 align="center">New European Tour Announced</h2>
+    <h3>12th September 2018</h3>
+</div>
+<p class="news-item storywrapper-yellow"><span style="font-family:Spicy Rice">The Monkees</span> have announced a new tour for the month of January 2019 which starts in Galway City, Ireland.
+<br>
+From there, the band will be travelling to Aberdeen (Scotland), Copenhagen (Denmark), Brann (Norway), Firenze (Italy), Barcelona (Spain) and finally Albufeira (Portugal).
+<br>
+Davy, Micky, Peter and Michael said they were delighted to be recognised for their efforts in making weddings extra special. 
+<br>
+Stay tuned for news about an upcoming tour.
+</p>
+
+<div class="row newswrapper-red news-headline">
+    <h2 align="center">Awards Season</h2>
+    <h3>20th August 2018</h3>
+</div>
+<p class="news-item storywrapper-yellow"><span style="font-family:Spicy Rice">The Monkees</span> have been awarded the title of 'Best Wedding Band in America' after a vote. They were nominated along with The Chimps, The Gorillas and The Lemurs.
+<br>
+The awards ceremony took place in Hollywood last night.
+<br>
+The boys are very excited to get to see their fans across some smaller, more intimate venues in Europe. 
+<br>
+This will of course mean that the band are not available for other events during this tour.
+<br>
+See you soon Europe!
+</p>
+
 </section>
         
 <!-------------------------------------Footer - Apply To Each Page -->
 <footer class="container-fluid">
-          <div class="row footer-monkees">
-              <div class="col-xs-4 col-sm-4 col-md-4">
-                  <br>
-               <button type="button" class="btn btn-danger" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
-              </div>
-              <div class="col-xs-4 col-sm-4 col-md-4">
-                  <h5 class="uppercase" align="center">Contact</h5>
-                  <p class="inline-block contact-envelope" align="center"><i class="fa fa-envelope"></i><p></p>
-              </div>
-              <div class="col-xs-4 col-sm-4 col-md-4">
-                  <h5 class="uppercase">Social Media</h5>
-                  <ul class="list-inline social-links">
-                      <li><a class="facebook" target="_blank" href="/"><i class="fa fa-facebook"></i></a></li>
-                      <li><a class="instagram" target="_blank" href="/"><i class="fa fa-instagram"></i></a></li>
-                      <li><a class="snapchat" target="_blank" href="/"><i class="fa fa-snapchat"></i></a></li>
-                      <li><a class="twitter" target="_blank" href="/"><i class="fa fa-twitter"></i></a></li>
-                  </ul>
-              </div>
-          </div>
-          
-      </footer>
+    <div class="row footer-monkees">
+        <div class="col-xs-4 col-sm-4 col-md-4">
+            <br>
+            <button type="button" class="btn btn-danger" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+            <h5 class="uppercase" align="center">Contact</h5>
+            <p class="inline-block contact-envelope" align="center"><a data-toggle='modal' data-target='#contactusModal'><i class="fa fa-envelope"></i></a></p>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+            <h5 class="uppercase">Social Media</h5>
+            <ul class="list-inline social-links">
+                <li><a class="facebook" target="_blank" href="/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="instagram" target="_blank" href="/"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="snapchat" target="_blank" href="/"><i class="fa fa-snapchat"></i></a></li>
+                <li><a class="twitter" target="_blank" href="/"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
 </footer>
         
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>       
