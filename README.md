@@ -32,9 +32,11 @@ Tour date page with button to third party site for tickets
 <h3>Structure Plane</h3> <h4>How is the information structured and how is it logically grouped?</h4>
 Interaction Design - I use a traditional navigation system with a navigation bar across the top as well as the band logo functioning as a link to homepage.
 
-Information Architecture - I am to keep things clear and easy for users by having seperate pages for bookings, tour dates, photos and news
-refers to organizing the information in a way that users can best understand it. The aim is to use
-a similar structure on each page so the user experience will be consistent. 
+Information Architecture - I am to keep things clear and easy for users by having seperate pages for bookings, tour dates, photos and news with identical nav and footer layouts on all pages. 
+The main section of the page will change but I aim to stick to the yellow, red and grey color schemes.
+
+*******refers to organizing the information in a way that users can best understand it. The aim is to use
+a similar structure on each page so the user experience will be consistent.********
 
 <h3>Skeleton Plane</h3> <h4>How will our information be represented and how will the user navigate to the information and the features?</h4> 
 [delete]Information Design refers to presenting the information in the way that the user can best understand it.
@@ -74,7 +76,21 @@ Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+Bookings Modal - allows users interested in booking the band to make an enquiry, by having them fill out an enquiry form. This modal can be accessed via the bookings.html page under 'What We Do'. The bookings.html page in itself can be accessed via the navbar or the callout on the homepage. 
+
+tour-dates.html - allows users interested in seeing the band live to view their tour dates, venues and click a ticket icon to take them to a ticketing website. 
+
+'Listen' - on the homepage allows users to sample or listen to (depending on whether they have a Spotify account) some of the band's greatest hits. 
+
+'Follow Us' - on the homepage gives users a convenient place to find their social media platforms of choice to follow the band on. 
+
+'Watch' - on the homepage gives users a video of the band performing which can be considered as an incentive to see them live or book them for an event.
+
+'Footer' - has a subscribe button for users to subscribe to newsletters as well as a contact us modal button. 
+
+On the bookings.html page, there is a 'What people say about us' section for those interested in booking the band to see how previous bookings have been reviewed.
+
+
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -128,7 +144,5 @@ Acknowledgements
 I received inspiration for this project from ChrisStapleton.com, TheVinyls.ie,
 The callout container on the homepage was inspired by the Whiskey Drop lessons from the Code Institute lessons. 
 BrandColors.net was used to help me get the correct colors for the respective social media logos on the homepage. 
-
-The hover effect used for navbar (classed as .options) can be credited to CodePen user 'Caloumi' and can be found here - https://codepen.io/Calloumi/pen/vndlH.
 
 Facts about The Monkees (seen on 'Our Music' page) were copied from their respective Wikipedia pages and are credited below each article. 
