@@ -19,7 +19,7 @@ A website for fans, potential fans and customers who may want to book the band f
 
 Enquiry form - for booking gigs. 
 
-Band photos - image carousel
+Band photos - images displayed in Bootstrap grid.
 
 Spotify plugin - to allow people try band's music
 
@@ -30,13 +30,11 @@ Social sharing buttons - for fans to share music and engage with fellow fans.
 Tour date page with button to third party site for tickets
 
 <h3>Structure Plane</h3> <h4>How is the information structured and how is it logically grouped?</h4>
-Interaction Design - I use a traditional navigation system with a navigation bar across the top as well as the band logo functioning as a link to homepage.
+Interaction Design - I use a traditional navigation system with a navigation bar across the top as well as a band logo functioning as a link to homepage.
 
 Information Architecture - I am to keep things clear and easy for users by having seperate pages for bookings, tour dates, photos and news with identical nav and footer layouts on all pages. 
 The main section of the page will change but I aim to stick to the yellow, red and grey color schemes.
 
-*******refers to organizing the information in a way that users can best understand it. The aim is to use
-a similar structure on each page so the user experience will be consistent.********
 
 <h3>Skeleton Plane</h3> <h4>How will our information be represented and how will the user navigate to the information and the features?</h4> 
 [delete]Information Design refers to presenting the information in the way that the user can best understand it.
@@ -51,12 +49,20 @@ the desired sections. I decided to have three types of navigation:
 students interested in reaching my page about a particular course.[delete]
 <h3>Surface Plane</h3> <h4>What will the finished product look like? or what colors typography and design elements will we use? </h4>
 
+The design will be consistent and visually appealing to customers/fans. A retro theme will be aimed for to match the time of the band's breakout years. 
+
+Colors - red, yellow and white (matching the Greatest Hits logo and color scheme). 
+Font - I used 'Spicy Rice' and 'Acme' both Google Fonts. I felt Spicy Rice was the perfect fit for 'The Monkees' - giving a retro feel to their band name. The logic behind 'Acme' was similar. I felt it looked suitably retro while also being easy to read for the main bodies of text. 
+CTAs - I used call-to-action buttons on the homepage for booking enquiries, booking tickets, following the band on social media and contacting the band through a form (found on the footer).
+
+I will have a callout container taking up most of the homepage upon loading to show the two main things this band is about - tours and bookings. There will be seperate CTA buttons for each option. 
+Underneath this callout container there will be a media area in which you can watch and listen to some of the band's material. I will also have a 'Follow Us' section in which all the main social media options will be there for fans to follow 'The Monkees' on. This 'Follow Us' section will take up a central space to act as a break between audio and video content and it will change layout depending on screen size. 
+The footer will contain a 'Subscribe' button, a 'Contact' button and a smaller 'Follow' section.
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 <h3>User Stories</h3>
 As a user, I want to be able to listen to The Monkees music on their website and watch videos of old performances.
 
@@ -69,7 +75,7 @@ As a user, I want to be able to make booking enquiries for the band to perform a
 As a user, I want to be able to see photos of the band. 
 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
@@ -92,17 +98,16 @@ On the bookings.html page, there is a 'What people say about us' section for tho
 
 
 ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+I have used HTML and CSS to build this project. Bootstrap has been the framework (version 3.3.7). 
+Google Fonts has been the source of the 'Spicy Rice' and 'Acme'. 
+I used Font Awesome for the social media icons as well as the 'Contact Us' button in the footer.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -146,3 +151,5 @@ The callout container on the homepage was inspired by the Whiskey Drop lessons f
 BrandColors.net was used to help me get the correct colors for the respective social media logos on the homepage. 
 
 Facts about The Monkees (seen on 'Our Music' page) were copied from their respective Wikipedia pages and are credited below each article. 
+
+Image for callout container on homepage sourced from - https://www.monkeeslivealmanac.com/blog/what-am-i-doing-hangin-round-video-from-the-tv-show

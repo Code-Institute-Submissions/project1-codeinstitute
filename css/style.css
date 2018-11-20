@@ -2,24 +2,46 @@
 
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700');
 
+/*------------------------------------------------------------Body */
+:root {
+    --main-bg-color: #b71c1c;
+    --main-txt-color: #FFFFFF; 
+    --main-padding: 15px; 
+}
+
+#div1 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+}
+
+#div2 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+}
+
+
 /*---------------------------------------------Navbar*/
 
 body {
-    padding-top: 60px;
+    padding-top: 40px;
     overflow-y: scroll;
-    overflow-x: hidden;
-}
+    overflow-x: none;
+    }
 
 .navbar a {
-    color: #FF0000;
+    color: #FFFFFF;
     text-align: center;
 }
-
+.sr-only icon-bar {
+    color: #FFFFFF;
+}
 .navbar-header {
-    background-color: #FFFF00;
-    color: #FF0000;
+    background-color: #b71c1c;
+    color: #FFFFFF;
     font-family: 'Spicy Rice', sans-serif;
-    font-weight: 500;
+    font-weight: 100;
 }
 
 .navbar {
@@ -29,36 +51,17 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #FFFF00;
+    background-color: #b71c1c;
     border: 0;
-}
+    }
 
-/*
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: -150px;
-    margin-left: -15px;
-}
-.navbar-default .navbar-collapse {
-    border-color: transparent;
-}
-
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-*/
 .navbar .navbar-brand {
-    font-weight: bold;
-    color: #FF0000;
+    color: #FFFFFF;
     font-size: 30px;
 }
 
 .navbar-brand-sm {
-    font-weight: bold;
-    color: #FF0000;
+    color: #FFFFFF;
     font-size: 20px;
     font-family: 'Spicy Rice', sans-serif;
 }
@@ -66,26 +69,28 @@ body {
 .navbar .navbar-brand:hover {
     transition: ease-in-out 0.6s;
     font-size: 30px;
-    color: #8B0000;
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 
 .navbar ul {
     text-align: center;
+    color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav a {
     font-weight: bold;
-    color: #FF0000;
+    color: #FFFFFF;
 
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: red;
+    color: #FFFFFF;
     background: transparent;
 
 }
@@ -100,29 +105,32 @@ body {
     border-radius: 16px;
     width: 100px;
     background-color: #f05f40;
-    color: white;
+    color: #FFFFFF;
 }
 
 .navbar-btn:hover {
     background-color: color: #FF0000;
     border-color: #df4929;
-    color: white;
+    color: #FFFFFF;
 }
-
-.options1 {
-    transition: 0.6s;
-    color: #ffffff;
+.options {
+    color: #FFFFFF;
     font-size: 20px;
     font-family: 'Spicy Rice', sans-serif;
     text-decoration: none;
-    border-right: 2px dotted transparent;
     padding: 5px 8px 0 5px;
     margin: 0 10px;
+}
+.options1 {
+    transition: 0.6s;
+    
 }
 
 .options1:hover {
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
@@ -130,18 +138,13 @@ body {
 
 .options2 {
     transition: 0.6s;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Spicy Rice', sans-serif;
-    text-decoration: none;
-    border-right: 2px dotted transparent;
-    padding: 5px 8px 0 5px;
-    margin: 0 10px;
-}
+    }
 
 .options2:hover {
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
@@ -149,18 +152,14 @@ body {
 
 .options3 {
     transition: 0.6s;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Spicy Rice', sans-serif;
-    text-decoration: none;
-    border-right: 2px dotted transparent;
-    padding: 5px 8px 0 5px;
-    margin: 0 10px;
+    
 }
 
 .options3:hover {
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
@@ -168,18 +167,14 @@ body {
 
 .options4 {
     transition: 0.6s;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Spicy Rice', sans-serif;
-    text-decoration: none;
-    border-right: 2px dotted transparent;
-    padding: 5px 8px 0 5px;
-    margin: 0 10px;
+    
 }
 
 .options4:hover {
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
@@ -187,18 +182,14 @@ body {
 
 .options5 {
     transition: 0.6s;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Spicy Rice', sans-serif;
-    text-decoration: none;
-    border-right: 2px dotted transparent;
-    padding: 5px 8px 0 5px;
-    margin: 0 10px;
+    
 }
 
 .options5:hover {
    -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
@@ -206,18 +197,14 @@ body {
 
 .options6 {
     transition: 0.6s;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Spicy Rice', sans-serif;
-    text-decoration: none;
-    border-right: 2px dotted transparent;
-    padding: 5px 8px 0 5px;
-    margin: 0 10px;
+    
 }
 
 .options6:hover {
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
@@ -232,10 +219,14 @@ body {
 footer {
     background-color: #DCDCDC;
     color: #000000;
-    padding: 15px 0px 15px 0px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 5px;
+    height: 100px;
+    text-align: center;
     }
 
 
@@ -245,6 +236,10 @@ footer {
 
 .social-links {
     font-size: 25px;
+    margin-left: 60px;
+}
+.footer-heading {
+    margin-left: 60px;
 }
 
 .fa-envelope {
@@ -272,7 +267,7 @@ footer {
 }
 
 .jumbotron .lead {
-    color: #FFFF00;
+    color: #FFFFFF;
     margin: 25px 0;
     font-weight: bold;
 }
@@ -287,6 +282,7 @@ footer {
 
 .uppercase {
     text-transform: uppercase;
+    color: #b71c1c;
 }
 
 .block-divider--yellow {
@@ -296,29 +292,14 @@ footer {
 }
 
 .block-divider--red {
-    background-color: #FF0000;
+    background-color: #b71c1c;
     font-weight: 200;
     width: 60px;
 }
 
 .btn--red {
-    background-color: #FF0000;
+    background-color: #b71c1c;
     color: #FFFFFF;
-}
-
-.btn--yellow {
-    background-color: #FFFF00;
-    color: #FFFFFF;
-}
-
-.btn--yellow2 {
-    background-color: #FFFF00;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-family: 'Spicy+Rice', sans-serif;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border: 2px #FFFFFF;
 }
 
 .button-to-bottom {
@@ -330,7 +311,7 @@ footer {
     font-family: 'Spicy+Rice', sans-serif;
 }
 
-/*---------------------------------------------Social Media/Follow Us Section*/
+/*--Social Media/Follow Us Section*/
 
 .social-media {
     background-color: #FFFFFF;
@@ -350,13 +331,6 @@ footer {
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
-}
-
-.social-media-icons {
-    font-size: 70px;
-    padding: 10px;
-    padding-right: 10px;
-    text-align: center;
 }
 
 .phone-sm-btns {
@@ -397,8 +371,71 @@ footer {
     color: #1da1f2;
 }
 
-/*---------------------------------------------Listen Section*/
+.watch {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
+/*---------------------------------------------Homepage Callouts*/
+
+.callout-container1 {
+    min-height: 80vh;
+    font-family: 'Acme', sans-serif;
+    background: url("../assets/themonkees-performing.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-container2 {
+    min-height: 80vh;
+    font-family: 'Acme', sans-serif;
+    background: url("../assets/the-monkees-homepage.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.callout-container3 {
+    font-family: 'Acme', sans-serif;
+    background: url("../assets/crowd-concert.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bookings-callout {
+    height: 90vh;
+}
+
+/*---------------------------------------------Our Music Page*/
+/*--Listen Section*/
+/*
 .listen-header {
     text-align: center;
     padding-bottom: 0;
@@ -410,50 +447,7 @@ footer {
     color: #FFFFFF;
     height: 500px;
 }
-
-/*---------------------------------------------Watch Section*/
-
-.watch-header {
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.container-wrapper--yellow {
-    background-color: #FFFF00;
-    color: #FFFFFF;
-    height: 500px;
-}
-
-/*---------------------------------------------Homepage Callout*/
-
-.callout-container {
-    min-height: 360px;
-    font-family: 'Acme', sans-serif;
-    background: url("../assets/the-monkees-homepage.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/*---------------------------------------------Our Music Page*/
-
+*/
 .music-wrapper1 {
     background-color: #FF0000;
     color: #FFFFFF;
@@ -496,7 +490,7 @@ footer {
 }
 
 .our-music-header {
-    color: #FF0000;
+    color: #b71c1c;
 }
 
 .history {
@@ -624,14 +618,25 @@ th {
     font-family: 'Acme', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    }
+    max-width: 800px;
+    margin-left:auto; 
+    margin-right:auto;
+    overflow: scroll;
+        }
 
 .tickets {
-    color: #FF0000;
+    color: #7f0000;
+    transition: 0.6s;
 }
 
 .tickets:hover {
-    color: #FFFF00;
+    color: #7f0000;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari */
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    
 }
 
 /*---------------------------------------------News Page*/
@@ -660,7 +665,7 @@ font-size: 20px;
     padding: 5px 20px 5px 20px;
     margin-right: 0px;
 }
-/*---------------------------------------------*/
+/*---------------------------------------------Media Queries*/
 
 
 /*---------------------------------------------*/
