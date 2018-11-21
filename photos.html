@@ -9,8 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     
-    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <!-- 1. Add latest jQuery and fancybox files -->
 
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    
     <style>
         :root {
             --main-bg-color: #b71c1c;
@@ -37,6 +42,7 @@
             padding: var(--main-padding);
         }
     </style>
+    
 </head>
 
 <body>
@@ -74,42 +80,30 @@
     <section="below-navbar">
         <div class="section-header uppercase">
             <h1 align="center"><span style="font-family:Spicy Rice">Photos</span></h1>
+            <h4 align="center"><span style="font-family:Acme">Click on the camera to launch the photo gallery</span></h4>
         </div>
-    
-        <p class="imglist" style="max-width: 1000px;">
-  <a href="assets/md.jpg" data-fancybox="images">
-    <img src="assets/md.jpg" />
-  </a>
-
-  <a href="assets/dj.jpg" data-fancybox="images">
-    <img src="assets/dj.jpg" />
-  </a>
-  
-  <a href="assets/mn.jpg" data-fancybox="images">
-    <img src="assets/mn.jpg" />
-  </a>
-
-  <a href="assets/pt.jpg" data-fancybox="images">
-    <img src="assets/.jpg" />
-  </a>
-
-  <a href="assets/md.jpg" data-fancybox="images">
-    <img src="assets/md.jpg" />
-  </a>
-
-  <a href="assets/md.jpg" data-fancybox="images">
-    <img src="assets/md.jpg" />
-  </a>
-
-  <a href="assets/md.jpg" data-fancybox="images">
-    <img src="assets/md.jpg" />
-  </a>
-  
-  <a href="assets/md.jpg" data-fancybox="images">
-    <img src="assets/md.jpg" />
-  </a>
-</p>
-        
+        <div class="photo-gallery">
+            <a data-fancybox="gallery" href="assets/dj.jpg"><img src="assets/old-camera.jpg"></a>
+            <a data-fancybox="gallery" href="assets/md.jpg"></a> 
+            <a data-fancybox="gallery" href="assets/mn.jpg"></a>
+            <a data-fancybox="gallery" href="assets/pt.jpg"></a>
+            <a data-fancybox="gallery" href="assets/cover.jpg"></a>
+            <a data-fancybox="gallery" href="assets/cover1.jpg"></a>
+            <a data-fancybox="gallery" href="assets/cover2.png"></a>
+            <a data-fancybox="gallery" href="assets/cover3.jpg"></a>
+            <a data-fancybox="gallery" href="assets/album.jpg"></a>
+            <a data-fancybox="gallery" href="assets/album2.jpg"></a>
+            <a data-fancybox="gallery" href="assets/band.jpg"></a>
+            <a data-fancybox="gallery" href="assets/monkees-logo.png"></a>
+            <a data-fancybox="gallery" href="assets/monkees-quad.png"></a>
+            <a data-fancybox="gallery" href="assets/the-monkees-homepage.jpg"></a>
+            <a data-fancybox="gallery" href="assets/themonkees-performing.jpg"></a>
+        </div>
+    </section>
+    <section>
+        <div class="insta-note">
+            <h2 align="center"><span style="font-family:Acme">Have you taken photos of us at an event or show? #TheMonkees is how to tag us on Instagram!</span></h2>
+        </div>
     </section>
 
 <!--End of Main Section-->
@@ -117,17 +111,16 @@
         <footer class="container-fluid footer">
         <div class="row footer-monkees">
             <div class="col-xs-2 col-sm-4 col-md-4">
-                <br>
                 <button type="button" class="btn btn--red" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
             </div>
             <div class="col-xs-10 col-sm-8 col-md-8">
                 <h5 class="uppercase footer-heading">Social Media</h5>
                 <div class="row">
                 <ul class="list-inline social-links">
-                    <li><a class="facebook" target="_blank" href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a class="instagram" target="_blank" href="/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a class="facebook" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="instagram" target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     <li><a class="snapchat" target="_blank" href="/"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
-                    <li><a class="twitter" target="_blank" href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="twitter" target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a class="spotify" target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
                     <li><a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                     <li><a class="apple hidden-xs" target="_blank" href="/"><i class="fa fa-apple" aria-hidden="true"></i></a></li>

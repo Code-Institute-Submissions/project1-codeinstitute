@@ -154,3 +154,4 @@ Facts about The Monkees (seen on 'Our Music' page) were copied from their respec
 
 Image for callout container on homepage sourced from - https://www.monkeeslivealmanac.com/blog/what-am-i-doing-hangin-round-video-from-the-tv-show
 Image for main callout container on smaller screens was sourced from - https://medium.com/cuepoint/fake-it-til-you-make-it-how-the-monkees-performed-live-f9fea6c9a6b9
+The old camera image which launches the photo gallery was sourced from - https://www.publicdomainpictures.net/en/view-image.php?image=27436&picture=old-camera

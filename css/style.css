@@ -297,7 +297,9 @@ footer {
     background-color: #7f0000;
     color: #FFFFFF;
 }
-
+.btn {
+    margin: 10px 5px 10px 5px;
+}
 .btn--white {
     background-color: #FFFFFF;
     color: #b71c1c;
@@ -520,64 +522,21 @@ footer {
 }
 
 /*---------------------------------------------Photos*/
-.imglist {
-    font-size: 0;
+
+.insta-note {
+    margin-top: 0;
+    margin-bottom: 50px;
+    background-color: #b71c1c;
+    color: #FFFFFF;
+    min-height: 25vh;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.image-row {
-    padding: 16px;
-}
-
-.container {
-    position: relative;
+.photo-gallery img {
     width: 100%;
+    margin-bottom: 0;
 }
 
-.image {
-    opacity: 1;
-    display: block;
-    width: 300px;
-    height: 300px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    border: 4px solid #FFFF00;
-}
 
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.container:hover .image {
-    opacity: 0.3;
-}
-
-.container:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    background-color: #FFFF00;
-    color: #FF0000;
-    font-size: 22px;
-    padding: 8px 16px;
-    font-family: 'Acme', sans-serif;
-    font-weight: 400;
-}
 
 
 /*---------------------------------------------Bookings Page*/
@@ -710,12 +669,24 @@ font-size: 20px;
     .youtube-player {
     height: 800px;
 }
+
+.spotify-player {
+    align-items: center;
+    left: 200px;
+    right: 250px;
+}
 ... }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
     .youtube-player {
     height: 700px;
+}
+
+.spotify-player {
+    align-items: center;
+    left: 10px;
+    
 }
 ... }
  
@@ -724,6 +695,7 @@ font-size: 20px;
     .youtube-player {
     height: 600px;
 }
+
     ... }
  
 /* Landscape phones and down */
@@ -750,6 +722,25 @@ font-size: 20px;
 
 .opaque-overlay {
     display: none;
+}
+
+.history-wrapper-smred {
+    background-color: #b71c1c;
+    color: #FFFFFF;
+    text-align: center;
+    height: 735px;
+}
+
+.history-wrapper-smyellow {
+    background-color: #FFFFFF;
+    color: #b71c1c;
+    text-align: center;
+    height: 735px;
+}
+.spotify-player {
+    align-items: center;
+    left: 10px;
+    
 }
     ... }
 
