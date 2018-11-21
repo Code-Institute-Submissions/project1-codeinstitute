@@ -409,6 +409,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 20px;
     
 }
 
@@ -435,7 +436,8 @@ footer {
 }
 
 .bookings-callout {
-    height: 90vh;
+    height: 50vh;
+    margin-bottom: 0;
 }
 
 /*---------------------------------------------Our Music Page*/
@@ -453,6 +455,13 @@ footer {
     height: 500px;
 }
 */
+.youtube-wrapper {
+    background-color: #b71c1c;
+    }
+
+.youtube-title {
+    background-color: #FFFFFF;
+    }
 
 .spotify-player {
     align-items: center;
