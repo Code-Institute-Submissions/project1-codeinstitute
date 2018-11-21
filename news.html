@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+        :root {
+            --main-bg-color: #b71c1c;
+            --main-txt-color: #FFFFFF;
+            --main-padding: 15px;
+        }
+
+        #div1 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+            text-align: center;
+        }
+
+        #div2 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+
+        #div3 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+    </style>
 </head>
 
 <body>
@@ -41,32 +67,25 @@
         </div>
     </nav>
 <!--End of header & navigation bar-->
-<section>
- <div class="row">
+    <main>
+     <div class="row">
         <div class="our-music-header uppercase">
             <h1 align="center"><span style="font-family:Spicy Rice">News</span></h1>
         </div>
-</div> 
+    </div>
+    </main>
+<section>
+     
 <div class="row newswrapper-red news-headline">
     <h2 align="center">New European Tour Announced</h2>
-    <h3>12th September 2018</h3>
+    <p>12th September 2018</p>
 </div>
-<p class="news-item storywrapper-yellow"><span style="font-family:Spicy Rice">The Monkees</span> have announced a new tour for the month of January 2019 which starts in Galway City, Ireland.
+<div class="featured-image" align="center">
+  <img src="assets/monkees-quad.png">  
+</div>
+<p class="news-item"><span style="font-family:Spicy Rice">The Monkees</span> have announced a new tour for the month of January 2019 which starts in Galway City, Ireland.
 <br>
 From there, the band will be travelling to Aberdeen (Scotland), Copenhagen (Denmark), Brann (Norway), Firenze (Italy), Barcelona (Spain) and finally Albufeira (Portugal).
-<br>
-Davy, Micky, Peter and Michael said they were delighted to be recognised for their efforts in making weddings extra special. 
-<br>
-Stay tuned for news about an upcoming tour.
-</p>
-
-<div class="row newswrapper-red news-headline">
-    <h2 align="center">Awards Season</h2>
-    <h3>20th August 2018</h3>
-</div>
-<p class="news-item storywrapper-yellow"><span style="font-family:Spicy Rice">The Monkees</span> have been awarded the title of 'Best Wedding Band in America' after a vote. They were nominated along with The Chimps, The Gorillas and The Lemurs.
-<br>
-The awards ceremony took place in Hollywood last night.
 <br>
 The boys are very excited to get to see their fans across some smaller, more intimate venues in Europe. 
 <br>
@@ -75,16 +94,31 @@ This will of course mean that the band are not available for other events during
 See you soon Europe!
 </p>
 
+<div class="row newswrapper-red news-headline">
+    <h2 align="center">Awards Season</h2>
+    <p>20th August 2018</p>
+</div>
+<div class="featured-image" align="center">
+  <img src="assets/band.jpg">  
+</div>
+<p class="news-item"><span style="font-family:Spicy Rice">The Monkees</span> have been awarded the title of 'Best Wedding Band in America' after a vote. They were nominated along with The Chimps, The Gorillas and The Lemurs.
+<br>
+The awards ceremony took place in Hollywood last night.
+<br>
+Davy, Micky, Peter and Michael said they were delighted to be recognised for their efforts in making weddings extra special. 
+<br>
+Stay tuned for news about an upcoming tour.
+</p>
 </section>
         
 <!-------------------------------------Footer - Apply To Each Page -->
 <footer class="container-fluid footer">
         <div class="row footer-monkees">
-            <div class="col-xs-4 col-sm-4 col-md-4">
+            <div class="col-xs-2 col-sm-4 col-md-4">
                 <br>
-                <button type="button" class="btn btn-danger" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
+                <button type="button" class="btn btn--red" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8">
+            <div class="col-xs-10 col-sm-8 col-md-8">
                 <h5 class="uppercase footer-heading">Social Media</h5>
                 <div class="row">
                 <ul class="list-inline social-links">
@@ -100,7 +134,6 @@ See you soon Europe!
             </div>
         </div>
     </footer>
-
 <!-- Subscribe Modal -->
     <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">

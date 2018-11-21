@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+        :root {
+            --main-bg-color: #b71c1c;
+            --main-txt-color: #FFFFFF;
+            --main-padding: 15px;
+        }
+
+        #div1 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+            text-align: center;
+        }
+
+        #div2 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+
+        #div3 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+    </style>
 </head>
 
 <body>
@@ -116,12 +142,12 @@
     <footer class="container-fluid footer">
         <div class="row footer-monkees">
             <div class="col-xs-2 col-sm-4 col-md-4">
-            <br>
-                <button type="button" class="btn btn-danger" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
+                <br>
+                <button type="button" class="btn btn--red" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
             </div>
-        <div class="col-xs-10 col-sm-8 col-md-8">
-            <h5 class="uppercase footer-heading">Social Media</h5>
-            <div class="row">
+            <div class="col-xs-10 col-sm-8 col-md-8">
+                <h5 class="uppercase footer-heading">Social Media</h5>
+                <div class="row">
                 <ul class="list-inline social-links">
                     <li><a class="facebook" target="_blank" href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a class="instagram" target="_blank" href="/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>

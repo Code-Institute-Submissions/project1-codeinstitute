@@ -8,10 +8,36 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+        :root {
+            --main-bg-color: #b71c1c;
+            --main-txt-color: #FFFFFF;
+            --main-padding: 15px;
+        }
+
+        #div1 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+            text-align: center;
+        }
+
+        #div2 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+
+        #div3 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+    </style>
 </head>
 
 <body>
-    <!-----------------------------------Header & Navigation Bar - Apply To Each Page-->
+    <!--Header & Navigation Bar - Apply To Each Page-->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -41,30 +67,47 @@
         </div>
     </nav>
 <!--End of header & navigation bar-->
-<section>
-    <div class="row">
-        <div class="our-music-header uppercase">
-            <h1 align="center"><span style="font-family:Spicy Rice">Bookings</span></h1>
+<!--Main - Change For Each Page-->
+<main>
+    <section>
+        <div class="row">
+            <div class="our-music-header uppercase">
+                <h1 align="center"><span style="font-family:Spicy Rice">Bookings</span></h1>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 wrapper-red">
-            <h2 class="bookinglist"><span style="font-family:Spicy Rice">What We Do</span></h2>
-            <ul>
-                <li><span class="list-items" style="font-family:Acme">Weddings</span</li>
-                <li><span class="list-items" style="font-family:Acme">Birthdays</span</li>
-                <li><span class="list-items" style="font-family:Acme">Retirements</span</li>
-                <li><span class="list-items" style="font-family:Acme">Anniversaries</span</li>
-                <li><span class="list-items" style="font-family:Acme">Religious Celebrations</span</li>
-            </ul>
-            <p class="button-to-bottom" align="center"><button type="button" class="btn btn-danger btn--yellow2" data-toggle="modal" data-target="#bookingModal">Make An Enquiry</button></p>
+        <div class="row">
+            <div id="div1" class="col-xs-12 col-sm-8 col-md-offset-2" align="center">
+                <h2 class="bookinglist"><span style="font-family:Spicy Rice">What We Do</span></h2>
+                <p align="center">We do weddings, birthdays, retirements, anniversaries, religious celebrations and any other occasion you want to make extra special!</p>
+            </div>
+    </section>
+    <section>
+        <div class="col-xs-12 col-sm-8 col-md-offset-2" align="center">
+            <h2 class="section-header"><span style="font-family:Spicy Rice">Make An Enquiry</span></h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date of Event</label>
+                    <input type="date" class="form-control" id="date" placeholder="Date of Event">
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget</label>
+                    <input type="budget" class="form-control" id="budget" placeholder="How much do you want to spend?">
+                </div>
+                <div class="form-group">
+                    <label for="eventdescription">Event Description</label>
+                    <input type="description" class="form-control" id="eventdescription" placeholder="Describe Your Event">
+                </div>
+                <button type="submit" class="btn btn--red">Submit Enquiry</button>
+            </form>
         </div>
-        <div class="col-xs-12 col-sm-4 wrapper-yellow">
-        <h2 class="bookinglist"><span align="center" style="font-family:Spicy Rice">How We Do It</span></h2>
-                    <iframe width="99.5%" height="315" src="https://www.youtube.com/embed/AZYPlNuljHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-xs-12 col-sm-4 wrapper-red">
-            <h2 class="bookinglist"><span style="font-family:Spicy Rice">What People Say About Us</span></h2>
+    </section>
+    <section>
+        <div class="col-xs-12 col-sm-8 col-md-offset-2 reviews">
+            <h2 class="reviews"><span style="font-family:Spicy Rice">What People Say About Us</span></h2>
             <div class="row">
                 <div class="col-xs-12">
                     <div class="media">
@@ -74,12 +117,13 @@
                         <div class="media-body">
                             <blockquote class="quote">
                                 <p class="quotes">"I've had the time of my life...and I owe it all to you guys!" </p>
-                                <footer>Frances and Johnny Castle on <cite title="Twitter">Twitter</cite></footer>
+                                <footer class="reference">Frances and Johnny Castle on <cite title="Twitter">Twitter</cite></footer>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
+            <hr class='block-divider block-divider--white'>
             <div class="row">
                 <div class="col-xs-12">
                     <div class="media testimonials">
@@ -89,25 +133,26 @@
                         <div class="media-body">
                             <blockquote class="quote">
                                 <p class="quotes">"The place was bananas! We had such a great time with The Monkees. Thank you for making our party so special".</p>
-                                <footer>Peter Smith on <cite title="Facebook">Facebook</cite></footer>
+                                <footer class="reference">Peter Smith on <cite title="Facebook">Facebook</cite></footer>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-</section>
        
- <!-------------------------------------Footer - Apply To Each Page -->
-<footer class="container-fluid footer">
+    </section>
+</main>
+<!--End of Main-->
+
+ <!--Footer - Apply To Each Page -->
+<footer class="container-fluid footer footer-bottom">
         <div class="row footer-monkees">
-            <div class="col-xs-4 col-sm-4 col-md-4">
+            <div class="col-xs-2 col-sm-4 col-md-4">
                 <br>
-                <button type="button" class="btn btn-danger" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
+                <button type="button" class="btn btn--red" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8">
+            <div class="col-xs-10 col-sm-8 col-md-8">
                 <h5 class="uppercase footer-heading">Social Media</h5>
                 <div class="row">
                 <ul class="list-inline social-links">

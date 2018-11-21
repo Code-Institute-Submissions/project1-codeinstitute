@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+        :root {
+            --main-bg-color: #b71c1c;
+            --main-txt-color: #FFFFFF;
+            --main-padding: 15px;
+        }
+
+        #div1 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+            text-align: center;
+        }
+
+        #div2 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+
+        #div3 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+    </style>
 </head>
 
 <body>
@@ -41,70 +67,37 @@
         </div>
     </nav>
 <!--End of header & navigation bar-->
-<!--------------------------------------------------Changeable For Each Page-->
+<!--Main -Changeable For Each Page-->
+<main>
+    <section>
+        <!--Music Player -->
+        <div class="col-xs-12 col-md-8 spotify-player">
+            <section class="listen">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="listen-header">
+                            <h2 class="uppercase" align="center" style="font-family:Spicy Rice">Listen</h2>
+                            <hr class="block-divider block-divider--short block-divider--short-yellow">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p align="center"><iframe src="https://open.spotify.com/embed/artist/320EPCSEezHt1rtbfwH6Ck" width="100%" height="380" frameborder="10" allowtransparency="true" allow="encrypted-media"></iframe></p>
+                    </div>
+                </div>
+            </section>
+        </div>    
+    </section>
+    <section>
+        
+    </section>
+</main>
+ <!--End of Music Player -->
 
-<section class="history hidden-xs hidden-sm">
-    <div class="our-music-header uppercase">
-        <h1 align="center"><span style="font-family:Spicy Rice">History</span></h1>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3 history-wrapper2">
-            <h2><span style="font-family:Acme">Davy Jones</span></h2>
-            <img src="assets/dj.jpg">
-            <p align="center">
-                <strong>30 December 1945 - 29 February 2012</strong>
-            </p>
-            <p align="left" class="history-info">David Thomas Jones was born at 20 Leamington Street, Openshaw, Manchester, on 30 December 1945. His television acting debut was on the British television soap opera Coronation Street. He portrayed Colin Lomax, Ena Sharples' grandson, for one
-                episode on 6 March 1961.
-                <br> He also appeared in the BBC police series Z-Cars. After the death of his mother from emphysema when he was 14 years old, Jones rejected acting in favour of a career as a jockey, apprenticing with Newmarket trainer Basil Foster. He
-                dropped out of secondary school to begin his career in that field. This career was short-lived, however. Even though Foster believed Jones would be successful as a jockey, he encouraged his young protege to take a role as the Artful Dodger
-                in a production of Oliver! in London's West End, a move which changed Jones' life forever.
-            </p>
-            <p class="text-muted wikipedia-credit">This article uses material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)">"Davy Jones"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a></p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 history-wrapper1">
-            <h2><span style="font-family:Acme">Micky Dolenz</span></h2>
-            <img src="assets/md.jpg">
-            <p align="center"><strong>Born March 8, 1945</strong></p>
-            <p align="left" class="history-info">
-                Dolenz was born at the Cedars of Lebanon Hospital (now Cedars-Sinai Medical Center), in Los Angeles, California, the son of actors George Dolenz and Janelle Johnson.
-                <br> Dolenz began his show-business career in 1956 when he starred in a children's TV show called Circus Boy under the name Mickey Braddock. He played Corky, an orphaned water boy for the elephants in a one-ring circus at the start of
-                the 20th century. The program ran for two seasons, after which Dolenz made sporadic appearances on network television shows and pursued his education. Dolenz went to Ulysses S. Grant High School in Valley Glen, Los Angeles, California,
-                and graduated in 1962. In 1964, he was cast as Ed in the episode "Born of Kings and Angels" of the NBC education drama series, Mr. Novak, starring James Franciscus as an idealistic Los Angeles teacher. Dolenz was attending college in Los
-                Angeles when he was hired for the "drummer" role in NBC's The Monkees.
-            </p>
-
-            <p class="text-muted wikipedia-credit">This article uses material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Micky_Dolenz">"Micky Dolenz"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a></p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 history-wrapper2">
-            <h2><span style="font-family:Acme">Michael Nesmith</span></h2>
-            <img src="assets/mn.jpg">
-            <p align="center"><strong>Born December 30, 1942</strong></p>
-            <p align="left" class="history-info">
-                Nesmith was born in Houston, Texas, in 1942. He is an only child.
-                <br> Nesmith was enrolled in the Dallas public school system in 1949, aged 6 and participated in choral and drama activities during his years at Thomas Jefferson High School. He also began to write verse poetry. When he was 15 he enrolled
-                in the Dallas Theater Center teen program, where he was featured in several plays.
-                <br> Nesmith later enrolled in San Antonio community college. While in college, Nesmith began to write more songs and poetry and eventually moved to Hollywood. Nesmith was offered a publishing deal for his songs, and it was while Nesmith
-                was at this publishing house that Barry Friedman brought the ad for auditions for a new TV series, The Monkees, to Nesmith's attention. In October 1965, Nesmith landed the role as "Mike" in the show, which required real-life musical talent.
-            </p>
-            <p class="text-muted wikipedia-credit">This article uses material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Michael_Nesmith_(musician)">"Michael Nesmith"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a></p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 history-wrapper1">
-            <h2><span style="font-family:Acme">Peter Tork</span></h2>
-            <img src="assets/pt.jpg">
-            <p align="center"><strong>Born February 13, 1942</strong></p>
-            <p align="left" class="history-info">Tork was born at the former Doctors Hospital, in Washington, D.C. Although he was born in the District of Columbia in 1942, many news articles incorrectly report him as born in 1944 in New York City, which was the date and place given on early
-                Monkees press releases. He is the son of Virginia Hope and Halsten John Thorkelson, an economics professor at the University of Connecticut.
-                <br> He began studying piano at the age of nine, showing an aptitude for music by learning to play several different instruments, including the banjo and both acoustic bass and guitars. Tork attended Windham High School in Willimantic,
-                Connecticut, and was a member of the first graduating class at E.O. Smith High School in Storrs, Connecticut. He attended Carleton College before he moved to New York City, where he became part of the folk music scene in Greenwich Village
-                during the first half of the 1960s.</p>
-
-            <p class="text-muted wikipedia-credit">This article uses material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Peter_Tork_(musician)">"Peter Tork"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a></p>
-        </div>
-</section>
-<!--For Smaller Screens-->
-<section class="history hidden-md">
-    <div class="our-music-header uppercase">
+<!--History-->
+<section class="history">
+    <div class="col-xs-12 our-music-header uppercase">
         <h1 align="center"><span style="font-family:Spicy Rice">History</span></h1>
     </div>
     <div class="row">
@@ -122,7 +115,7 @@
             </p>
             <p class="text-muted wikipedia-credit">This article uses material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)">"Davy Jones"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a></p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 history-wrapper-smyellow">
+        <div class="col-xs-12  col-sm-6 col-md-3 history-wrapper-smyellow">
             <h2><span style="font-family:Acme">Micky Dolenz</span></h2>
             <img src="assets/md.jpg">
             <p align="center"><strong>Born March 8, 1945</strong></p>
@@ -136,7 +129,7 @@
 
             <p class="text-muted wikipedia-credit">This article uses material from the Wikipedia article <a href="https://en.wikipedia.org/wiki/Micky_Dolenz">"Micky Dolenz"</a>, which is released under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a></p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 history-wrapper-smred">
+        <div class="col-xs-12  col-sm-6 col-md-3 history-wrapper-smred">
             <h2><span style="font-family:Acme">Michael Nesmith</span></h2>
             <img src="assets/mn.jpg">
             <p align="center"><strong>Born December 30, 1942</strong></p>
@@ -166,11 +159,11 @@
  <!-------------------------------------Footer - Apply To Each Page -->
 <footer class="container-fluid footer">
         <div class="row footer-monkees">
-            <div class="col-xs-4 col-sm-4 col-md-4">
+            <div class="col-xs-2 col-sm-4 col-md-4">
                 <br>
-                <button type="button" class="btn btn-danger" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
+                <button type="button" class="btn btn--red" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8">
+            <div class="col-xs-10 col-sm-8 col-md-8">
                 <h5 class="uppercase footer-heading">Social Media</h5>
                 <div class="row">
                 <ul class="list-inline social-links">

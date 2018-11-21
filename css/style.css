@@ -82,7 +82,6 @@ body {
 }
 
 .navbar-default .navbar-nav a {
-    font-weight: bold;
     color: #FFFFFF;
 
 }
@@ -109,7 +108,7 @@ body {
 }
 
 .navbar-btn:hover {
-    background-color: color: #FF0000;
+    background-color: #FF0000;
     border-color: #df4929;
     color: #FFFFFF;
 }
@@ -120,6 +119,7 @@ body {
     text-decoration: none;
     padding: 5px 8px 0 5px;
     margin: 0 10px;
+    ;
 }
 .options1 {
     transition: 0.6s;
@@ -219,13 +219,9 @@ body {
 footer {
     background-color: #DCDCDC;
     color: #000000;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: -1;
     width: 100%;
-    left: 0;
-    right: 0;
-    margin-top: 5px;
-    height: 100px;
     text-align: center;
     }
 
@@ -277,7 +273,7 @@ footer {
 /*---------------------------------------------Fonts, Text Stylings, Block Dividers, Buttons*/
 
 .section-header {
-    color: #FF0000;
+    color: #b71c1c;
 }
 
 .uppercase {
@@ -285,10 +281,10 @@ footer {
     color: #b71c1c;
 }
 
-.block-divider--yellow {
-    background-color: #FFFF00;
+.block-divider--white {
+    background-color: #FFFFFF;
     font-weight: 200;
-    width: 60px;
+    width: 90%;
 }
 
 .block-divider--red {
@@ -298,8 +294,14 @@ footer {
 }
 
 .btn--red {
-    background-color: #b71c1c;
+    background-color: #7f0000;
     color: #FFFFFF;
+}
+
+.btn--white {
+    background-color: #FFFFFF;
+    color: #b71c1c;
+    text-decoration: bold;
 }
 
 .button-to-bottom {
@@ -390,6 +392,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
+    top: 15px;
 }
 
 .callout-container2 {
@@ -448,46 +451,49 @@ footer {
     height: 500px;
 }
 */
-.music-wrapper1 {
-    background-color: #FF0000;
-    color: #FFFFFF;
-    text-align: center;
-}
 
-.music-wrapper2 {
-    background-color: #FFFF00;
-    color: #FFFFFF;
-    text-align: center;
+.spotify-player {
+    align-items: center;
+    left: auto;
+    right: auto;
 }
 
 .history-wrapper1 {
-    background-color: #FF0000;
-    color: #FFFF00;
+    background-color: #b71c1c;
+    color: #FFFFFF;
     text-align: center;
     height: 925px;
 
 }
 
 .history-wrapper2 {
-    background-color: #FFFF00;
-    color: #FF0000;
+    background-color: #FFFFFF;
+    color: #b71c1c;
     text-align: center;
     height: 925px;
 
 }
 .history-wrapper-smred {
-    background-color: #FF0000;
-    color: #FFFF00;
+    background-color: #b71c1c;
+    color: #FFFFFF;
     text-align: center;
-    height: 750px;
+    height: 900px;
 }
 
 .history-wrapper-smyellow {
-    background-color: #FFFF00;
-    color: #FF0000;
+    background-color: #FFFFFF;
+    color: #b71c1c;
     text-align: center;
-    height: 750px;
+    height: 900px;
 }
+
+.history-wrapper-smred img {
+    height: 150px;
+}
+
+.history-wrapper-smyellow img{
+   height: 150px;
+  }
 
 .our-music-header {
     color: #b71c1c;
@@ -514,6 +520,17 @@ footer {
 }
 
 /*---------------------------------------------Photos*/
+.imglist {
+    font-size: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .image-row {
     padding: 16px;
@@ -562,19 +579,8 @@ footer {
     font-weight: 400;
 }
 
+
 /*---------------------------------------------Bookings Page*/
-
-.wrapper-red {
-    background-color: #FF0000;
-    color: #FFFFFF;
-    height: 430px;
-}
-
-.wrapper-yellow {
-    background-color: #FFFF00;
-    color: #FFFFFF;
-    height: 430px;
-}
 
 .list-items {
     font-size: 26px;
@@ -585,24 +591,49 @@ footer {
 }
 
 /* Quotes */
-
+.reviews {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: #FFFFFF;
+    background-color: #b71c1c;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
 .quotes .page-header {
     margin-bottom: 10px;
+    color: #FFFFFF;
 
 }
 
-blockquote.quote {
+.blockquote.quote {
     border-left: 0;
 }
 
 .quotes {
     font-family: 'Acme', sans-serif;
+    color: #FFFFFF;
+    background-color: #b71c1c;
+    margin-bottom: 30px;
 }
 
 .testimonials {
     padding-bottom: 15px;
 }
+.reference {
+    width: 50%;
+}
 
+.footer-bottom {
+  position: inherit;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
 /*---------------------------------------------Buy Tickets*/
 
 .table-striped,
@@ -622,6 +653,7 @@ th {
     margin-left:auto; 
     margin-right:auto;
     overflow: scroll;
+    min-height: 100vh;
         }
 
 .tickets {
@@ -651,22 +683,75 @@ font-family: 'Acme', sans-serif;
 font-size: 20px;
 }
 .newswrapper-red {
- background-color: #FF0000;
+ background-color: #b71c1c;
     color: #FFFFFF;
     padding: 5px 10px 5px 10px;
     margin-right: 0px;
+    max-width: 600px;
     }
 
-.storywrapper-yellow {
-  background-color: #FFFF00;
-    color: #FF0000; 
+.storywrapper {
+    color: #000000; 
     font-weight: 400;
     font-size: 22px;
     padding: 5px 20px 5px 20px;
     margin-right: 0px;
 }
-/*---------------------------------------------Media Queries*/
 
+.featured-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+    }
+/*---------------------------------------------Media Queries*/
+/* Large desktop */
+@media (min-width: 1200px) { 
+    .youtube-player {
+    height: 800px;
+}
+... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+    .youtube-player {
+    height: 700px;
+}
+... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    .youtube-player {
+    height: 600px;
+}
+    ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .youtube-player {
+    height: 550px;
+}
+.callout-container1 {
+    height: 80vh;
+    width: 100vw;
+    font-family: 'Acme', sans-serif;
+    background: url("../assets/the-monkees-smallscreen.jpeg") no-repeat center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -75px;
+    margin-bottom: -75px;
+}
+
+.opaque-overlay {
+    display: none;
+}
+    ... }
 
 /*---------------------------------------------*/
 
