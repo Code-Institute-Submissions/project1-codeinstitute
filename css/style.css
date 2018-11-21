@@ -425,8 +425,16 @@ footer {
     justify-content: center;
     position: relative;
 }
-
 .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opaque-overlay1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -729,7 +737,7 @@ font-size: 20px;
     margin-bottom: -75px;
 }
 
-.opaque-overlay {
+.opaque-overlay1 {
     display: none;
 }
 
@@ -750,6 +758,37 @@ font-size: 20px;
     align-items: center;
     left: 10px;
     
+}
+
+.callout-container2 {
+    min-height: 80vh;
+    font-family: 'Acme', sans-serif;
+    color: #7f0000;
+    background: url("../assets/the-monkees-homepage.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.callout-container3 {
+    font-family: 'Acme', sans-serif;
+    color: #7f0000;
+    background: url("../assets/crowd-concert.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
     ... }
 
