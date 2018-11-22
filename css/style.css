@@ -219,7 +219,7 @@ body {
 footer {
     background-color: #DCDCDC;
     color: #000000;
-    
+    padding-top: 20px;
     bottom: -1;
     width: 100%;
     text-align: center;
@@ -766,7 +766,7 @@ font-size: 20px;
     height: 550px;
 }
 .callout-container1 {
-    height: 80vh;
+    height: 25vh;
     width: 100vw;
     font-family: 'Acme', sans-serif;
     background: url("../assets/the-monkees-smallscreen.jpeg") no-repeat center;
@@ -778,25 +778,29 @@ font-size: 20px;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -75px;
-    margin-bottom: -75px;
+    top: -125px;
+    margin-bottom: -215px;
 }
 
 .opaque-overlay1 {
     display: none;
 }
-
+.band-history {
+    padding-left: 35px;
+    padding-right: 15px;
+}
 .history-wrapper-smred {
     background-color: #7f0000;
     color: #FFFFFF;
     text-align: center;
-    
+    height: 940px;
         }
 
 .history-wrapper-smwhite {
     background-color: #FFFFFF;
     color: #7f0000;
     text-align: center;
+    height: 1000px;
     
    }
 .history-info {
@@ -864,6 +868,14 @@ padding-right: 20px;
     ... }
 .the-band {
     width: 100%;
+}
+
+.reference {
+    padding-top: 0;
+    width: 80%;
+}
+.footer {
+    padding-top: 75px;
 }
 /*---------------------------------------------*/
 
