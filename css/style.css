@@ -3,10 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700');
 
 /*------------------------------------------------------------Body */
+
 :root {
     --main-bg-color: #b71c1c;
-    --main-txt-color: #FFFFFF; 
-    --main-padding: 15px; 
+    --main-txt-color: #FFFFFF;
+    --main-padding: 15px;
 }
 
 #div1 {
@@ -28,15 +29,17 @@ body {
     padding-top: 40px;
     overflow-y: scroll;
     overflow-x: none;
-    }
+}
 
 .navbar a {
     color: #FFFFFF;
     text-align: center;
 }
+
 .sr-only icon-bar {
     color: #FFFFFF;
 }
+
 .navbar-header {
     background-color: #7f0000;
     color: #FFFFFF;
@@ -53,7 +56,7 @@ body {
     z-index: 1;
     background-color: #7f0000;
     border: 0;
-    }
+}
 
 .navbar .navbar-brand {
     color: #FFFFFF;
@@ -69,8 +72,10 @@ body {
 .navbar .navbar-brand:hover {
     transition: ease-in-out 0.6s;
     font-size: 30px;
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -112,6 +117,7 @@ body {
     border-color: #df4929;
     color: #FFFFFF;
 }
+
 .options {
     color: #FFFFFF;
     font-size: 20px;
@@ -121,14 +127,17 @@ body {
     margin: 0 10px;
     ;
 }
+
 .options1 {
     transition: 0.6s;
-    
+
 }
 
 .options1:hover {
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -138,11 +147,13 @@ body {
 
 .options2 {
     transition: 0.6s;
-    }
+}
 
 .options2:hover {
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -152,12 +163,14 @@ body {
 
 .options3 {
     transition: 0.6s;
-    
+
 }
 
 .options3:hover {
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -167,12 +180,14 @@ body {
 
 .options4 {
     transition: 0.6s;
-    
+
 }
 
 .options4:hover {
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -182,12 +197,14 @@ body {
 
 .options5 {
     transition: 0.6s;
-    
+
 }
 
 .options5:hover {
-   -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -197,12 +214,14 @@ body {
 
 .options6 {
     transition: 0.6s;
-    
+
 }
 
 .options6:hover {
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -223,10 +242,10 @@ footer {
     bottom: -1;
     width: 100%;
     text-align: center;
-    }
+}
 
 .last-section {
-margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 .contact-envelope {
@@ -237,19 +256,11 @@ margin-bottom: 20px;
     font-size: 25px;
     margin-left: 60px;
 }
+
 .footer-heading {
     margin-left: 60px;
 }
 
-.fa-envelope {
-    color: black;
-    cursor: pointer;
-}
-
-.fa-envelope:hover {
-    color: red;
-    cursor: pointer;
-}
 
 /*---------------------------------------------Jumbotron*/
 
@@ -300,9 +311,11 @@ margin-bottom: 20px;
     background-color: #7f0000;
     color: #FFFFFF;
 }
+
 .btn {
     margin: 10px 5px 10px 5px;
 }
+
 .btn--white {
     background-color: #FFFFFF;
     color: #7f0000;
@@ -383,8 +396,30 @@ margin-bottom: 20px;
     margin-bottom: 15px;
 }
 
-/*---------------------------------------------Homepage Callouts*/
+/*---------------------------------------------Homepage*/
+/*--Listen Section*/
 
+.listen-header {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.container-wrapper--red {
+    background-color: #7f0000;
+    color: #FFFFFF;
+    height: 500px;
+}
+
+.youtube-wrapper {
+    background-color: #7f0000;
+}
+
+.youtube-title {
+    background-color: #FFFFFF;
+}
+
+/*--Callout Containers*/
 .callout-container1 {
     min-height: 80vh;
     font-family: 'Acme', sans-serif;
@@ -414,7 +449,7 @@ margin-bottom: 20px;
     justify-content: center;
     position: relative;
     margin-top: 20px;
-    
+
 }
 
 .callout-container3 {
@@ -429,6 +464,7 @@ margin-bottom: 20px;
     justify-content: center;
     position: relative;
 }
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -453,27 +489,6 @@ margin-bottom: 20px;
 }
 
 /*---------------------------------------------Our Music Page*/
-/*--Listen Section*/
-
-.listen-header {
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.container-wrapper--red {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    height: 500px;
-}
-
-.youtube-wrapper {
-    background-color: #7f0000;
-    }
-
-.youtube-title {
-    background-color: #FFFFFF;
-    }
 
 .spotify-player {
     align-items: center;
@@ -481,6 +496,12 @@ margin-bottom: 20px;
     right: auto;
 }
 
+
+.our-music-header {
+    color: #7f0000;
+}
+
+/*---------------------------------------------The Band*/
 .history-wrapper1 {
     background-color: #7f0000;
     color: #FFFFFF;
@@ -496,6 +517,7 @@ margin-bottom: 20px;
     height: 1250px;
 
 }
+
 .history-wrapper-smred {
     background-color: #7f0000;
     color: #FFFFFF;
@@ -515,13 +537,10 @@ margin-bottom: 20px;
     height: 150px;
 }
 
-.history-wrapper-smyellow img{
-   height: 150px;
-  }
-
-.our-music-header {
-    color: #7f0000;
+.history-wrapper-smyellow img {
+    height: 150px;
 }
+
 
 .history {
     padding-bottom: 20px;
@@ -542,6 +561,48 @@ margin-bottom: 20px;
 
 .wikipedia-credit2 a {
     color: #000000;
+}
+/*News*/
+
+.news-headline {
+    font-family: 'Acme', sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.news-item {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.newswrapper-red {
+    background-color: #7f0000;
+    color: #FFFFFF;
+    padding: 5px 10px 5px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+}
+
+.storywrapper {
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 5px 20px 5px 20px;
+    margin-right: 0px;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.band-history {
+    font-size: 20px;
 }
 
 /*---------------------------------------------Photos*/
@@ -574,6 +635,7 @@ margin-bottom: 20px;
 }
 
 /* Quotes */
+
 .reviews {
     text-align: center;
     font-family: 'Acme', sans-serif;
@@ -584,6 +646,7 @@ margin-bottom: 20px;
     margin-bottom: 20px;
     align-items: center;
 }
+
 .quotes .page-header {
     margin-bottom: 10px;
     color: #FFFFFF;
@@ -604,19 +667,21 @@ margin-bottom: 20px;
 .testimonials {
     padding-bottom: 15px;
 }
+
 .reference {
     width: 50%;
 }
 
 .footer-bottom {
-  position: inherit;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+    position: inherit;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
+
 /*---------------------------------------------Buy Tickets*/
 
 .table-striped,
@@ -633,11 +698,11 @@ th {
     font-weight: 500;
     font-size: 20px;
     max-width: 800px;
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     overflow: scroll;
     min-height: 100vh;
-        }
+}
 
 .tickets {
     color: #7f0000;
@@ -646,226 +711,209 @@ th {
 
 .tickets:hover {
     color: #7f0000;
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Safari */
+    -ms-transform: rotate(-5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-5deg);
+    /* Safari */
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    
-}
-
-/*---------------------------------------------News Page*/
-.news-headline {
-    font-family: 'Acme', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    
-    }
-
-.news-item {
-font-family: 'Acme', sans-serif;
-font-size: 20px;
-
 
 }
-.newswrapper-red {
- background-color: #7f0000;
-    color: #FFFFFF;
-    padding: 5px 10px 5px 10px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 600px;
-    }
 
-.storywrapper {
-    color: #000000; 
-    font-weight: 400;
-    font-size: 22px;
-    padding: 5px 20px 5px 20px;
-    margin-right: 0px;
-}
 
-.featured-image {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-      }
-      
-.band-history {
-    font-size: 20px;
-}
 /*---------------------------------------------Media Queries*/
+
 /* Large desktop */
-@media (min-width: 1200px) { 
+
+@media (min-width: 1200px) {
     .youtube-player {
-    height: 800px;
-}
+        height: 800px;
+    }
 
-.spotify-player {
-    align-items: center;
-    left: 200px;
-    right: 250px;
-}
+    .spotify-player {
+        align-items: center;
+        left: 200px;
+        right: 250px;
+    }
 
-.history-wrapper-smred {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    text-align: center;
-    height: 920px;
-    padding-left: 30px;
-}
+    .history-wrapper-smred {
+        background-color: #7f0000;
+        color: #FFFFFF;
+        text-align: center;
+        height: 920px;
+        padding-left: 30px;
+    }
 
-.history-wrapper-smwhite {
-    background-color: #FFFFFF;
-    color: #7f0000;
-    text-align: center;
-    height: 920px;
-}
-... }
- 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
-    .youtube-player {
-    height: 700px;
-}
-
-.spotify-player {
-    align-items: center;
-    left: 10px;
+    .history-wrapper-smwhite {
+        background-color: #FFFFFF;
+        color: #7f0000;
+        text-align: center;
+        height: 920px;
+    }
     
+    .footer {
+        padding-top: 40px;
+    }
+    ...
 }
 
-.history-wrapper-smred {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    text-align: center;
-    height: 920px;
-    padding-left: 30px;
-}
+/* Portrait tablet to landscape and desktop */
 
-.history-wrapper-smwhite {
-    background-color: #FFFFFF;
-    color: #7f0000;
-    text-align: center;
-    height: 920px;
-}
-... }
-... }
- 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
+@media (min-width: 768px) and (max-width: 979px) {
     .youtube-player {
-    height: 600px;
+        height: 700px;
+    }
+
+    .spotify-player {
+        align-items: center;
+        left: 10px;
+
+    }
+
+    .history-wrapper-smred {
+        background-color: #7f0000;
+        color: #FFFFFF;
+        text-align: center;
+        height: 920px;
+        padding-left: 30px;
+    }
+
+    .history-wrapper-smwhite {
+        background-color: #FFFFFF;
+        color: #7f0000;
+        text-align: center;
+        height: 920px;
+    }
+    
+    .footer {
+        padding-top: 40px;
+    }
+    ...
 }
 
-    ... }
- 
+...
+}
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+    .youtube-player {
+        height: 600px;
+    }
+
+    ...
+}
+
 /* Landscape phones and down */
+
 @media (max-width: 480px) {
     .youtube-player {
-    height: 550px;
-}
-.callout-container1 {
-    height: 25vh;
-    width: 100vw;
-    font-family: 'Acme', sans-serif;
-    background: url("../assets/the-monkees-smallscreen.jpeg") no-repeat center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -125px;
-    margin-bottom: -215px;
+        height: 550px;
+    }
+    .callout-container1 {
+        height: 25vh;
+        width: 100vw;
+        font-family: 'Acme', sans-serif;
+        background: url("../assets/the-monkees-smallscreen.jpeg") no-repeat center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -125px;
+        margin-bottom: -215px;
+    }
+
+    .opaque-overlay1 {
+        display: none;
+    }
+    .band-history {
+        padding-left: 35px;
+        padding-right: 15px;
+    }
+    .history-wrapper-smred {
+        background-color: #7f0000;
+        color: #FFFFFF;
+        text-align: center;
+        height: 940px;
+    }
+
+    .history-wrapper-smwhite {
+        background-color: #FFFFFF;
+        color: #7f0000;
+        text-align: center;
+        height: 1000px;
+
+    }
+    .history-info {
+        width: 90%;
+        font-size: 18px;
+        padding: 20px 5px 3px 20px;
+    }
+
+    .wikipedia-credit1 {
+        color: #c0b3c2;
+        font-size: 10px;
+        width: 70%;
+        padding-left: 75px;
+    }
+
+    .wikipedia-credit2 {
+        color: #00000;
+        font-size: 10px;
+        width: 70%;
+        padding-left: 75px;
+    }
+
+    .news-item {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .spotify-player {
+        align-items: center;
+        left: 10px;
+
+    }
+
+    .callout-container2 {
+        min-height: 80vh;
+        font-family: 'Acme', sans-serif;
+        color: #7f0000;
+        background: url("../assets/the-monkees-homepage.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+
+    }
+
+    .callout-container3 {
+        font-family: 'Acme', sans-serif;
+        color: #7f0000;
+        background: url("../assets/crowd-concert.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    ...
 }
 
-.opaque-overlay1 {
-    display: none;
-}
-.band-history {
-    padding-left: 35px;
-    padding-right: 15px;
-}
-.history-wrapper-smred {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    text-align: center;
-    height: 940px;
-        }
-
-.history-wrapper-smwhite {
-    background-color: #FFFFFF;
-    color: #7f0000;
-    text-align: center;
-    height: 1000px;
-    
-   }
-.history-info {
-     width: 90%; 
-     font-size: 18px;
-     padding: 20px 5px 3px 20px;
-   }
-   
-   .wikipedia-credit1 {
-    color: #c0b3c2;
-    font-size: 10px;
-    width: 70%;
-    padding-left: 75px;
-   }
-   
-   .wikipedia-credit2 {
-    color: #00000;
-    font-size: 10px;
-    width: 70%;
-    padding-left: 75px;
-   }
-   
-   .news-item {
-font-family: 'Acme', sans-serif;
-font-size: 20px;
-padding-left: 20px;
-padding-right: 20px;
-}
-.spotify-player {
-    align-items: center;
-    left: 10px;
-    
-}
-
-.callout-container2 {
-    min-height: 80vh;
-    font-family: 'Acme', sans-serif;
-    color: #7f0000;
-    background: url("../assets/the-monkees-homepage.jpg") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 20px;
-    
-}
-
-.callout-container3 {
-    font-family: 'Acme', sans-serif;
-    color: #7f0000;
-    background: url("../assets/crowd-concert.jpg") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-    ... }
 .the-band {
     width: 100%;
 }
@@ -874,6 +922,7 @@ padding-right: 20px;
     padding-top: 0;
     width: 80%;
 }
+
 .footer {
     padding-top: 75px;
 }
