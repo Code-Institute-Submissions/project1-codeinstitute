@@ -4,32 +4,15 @@
 
 /*------------------------------------------------------------Body */
 
-:root {
-    --main-bg-color: #b71c1c;
-    --main-txt-color: #FFFFFF;
-    --main-padding: 15px;
-}
-
-#div1 {
-    background-color: var(--main-bg-color);
-    color: var(--main-txt-color);
-    padding: var(--main-padding);
-}
-
-#div2 {
-    background-color: var(--main-bg-color);
-    color: var(--main-txt-color);
-    padding: var(--main-padding);
-}
-
 
 /*---------------------------------------------Navbar*/
 
 body {
     padding-top: 40px;
     overflow-y: scroll;
-    overflow-x: none;
-}
+    overflow-x: hidden;
+    width: 100%;
+      }
 
 .navbar a {
     color: #FFFFFF;
@@ -79,6 +62,7 @@ body {
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
+    color: #FFFFFF;
 }
 
 .navbar ul {
@@ -235,15 +219,37 @@ body {
 
 /*---------------------------------------------Footer*/
 
-footer {
-    background-color: #DCDCDC;
+footer .monkees-footer {
+    background-color: #FFFFFF;
     color: #000000;
-    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    }
+    
+
+footer {
+    background-color: #D3D3D3;
+    color: #000000;
     bottom: -1;
     width: 100%;
     text-align: center;
-}
+    }
 
+.footer-bottom {
+    position: inherit;
+    right: 0;
+    bottom: -1;
+    left: 0;
+    padding: 1rem;
+    background-color: #D3D3D3;
+    text-align: center;
+    }
+    
+.footer-booking-theband {
+    position: inherit
+    }
+    
 .last-section {
     margin-bottom: 20px;
 }
@@ -253,12 +259,18 @@ footer {
 }
 
 .social-links {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 60px;
+    
 }
 
 .footer-heading {
     margin-left: 60px;
+}
+
+.last-section {
+    height: 60vh;
+    margin-bottom: 5px;
 }
 
 
@@ -268,7 +280,7 @@ footer {
     background-color: transparent;
 }
 
-.jumbotron h1 {
+.jumbotron {
     color: white;
     margin-bottom: 30px;
     color: white;
@@ -312,6 +324,15 @@ footer {
     color: #FFFFFF;
 }
 
+.btn--red:hover {
+    background-color: #7f0000;
+    color: #FAFAFA;
+}
+
+.btn--red:onclick {
+    background-color: #7f0000;
+    color: #FAFAFA;
+}
 .btn {
     margin: 10px 5px 10px 5px;
 }
@@ -329,6 +350,16 @@ footer {
 
 .band-name {
     font-family: 'Spicy+Rice', sans-serif;
+}
+
+p {
+    margin: 0 0 10px;
+    padding: 0 20px 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /*--Social Media/Follow Us Section*/
@@ -361,6 +392,7 @@ footer {
 
 .spotify {
     color: #1db954;
+    
 }
 
 .facebook {
@@ -449,6 +481,7 @@ footer {
     justify-content: center;
     position: relative;
     margin-top: 20px;
+    margin-bottom: 15px;
 
 }
 
@@ -463,7 +496,9 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-bottom: 15px;
 }
+
 
 .opaque-overlay {
     position: absolute;
@@ -474,17 +509,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.opaque-overlay1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .bookings-callout {
-    height: 50vh;
+    height: 42vh;
     margin-bottom: 125px;
 }
 
@@ -496,6 +522,17 @@ footer {
     right: auto;
 }
 
+.spotify-section {
+    min-height: 100vh;
+}
+
+.purchase-amazon img {
+ padding: 20px 25px 20px 25px;
+ border-color: #FAFAFA;
+ border-style: solid;
+ border-width: 6px;
+ background-color: #7f0000;
+}
 
 .our-music-header {
     color: #7f0000;
@@ -531,6 +568,7 @@ footer {
     color: #7f0000;
     text-align: center;
     height: 1250px;
+    padding-left: 30px;
 }
 
 .history-wrapper-smred img {
@@ -544,14 +582,15 @@ footer {
 
 .history {
     padding-bottom: 20px;
-    width: 95%;
+    width: 98%;
 }
 
 .history-info {
     font-family: 'Acme', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    padding-left: 3px;
+    padding-left: 14px;
+    padding-right: 14px;
     margin: 3px;
 }
 
@@ -603,8 +642,15 @@ footer {
 
 .band-history {
     font-size: 20px;
-}
+    color: #000000;
+    }
 
+.band-history,p {
+    padding-left: 2px;
+    padding-right: 2px;
+    text-transform: none;
+    font-size: 20px;
+}
 /*---------------------------------------------Photos*/
 
 .insta-note {
@@ -621,10 +667,21 @@ footer {
     margin-bottom: 0;
 }
 
-
+.opaque-overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 /*---------------------------------------------Bookings Page*/
+.booking-form{
+    background-color: #FAFAFA;
+    align-items: center;
+}
 
 .list-items {
     font-size: 26px;
@@ -662,6 +719,7 @@ footer {
     color: #FFFFFF;
     background-color: #7f0000;
     margin-bottom: 30px;
+    width: 90%;
 }
 
 .testimonials {
@@ -669,19 +727,12 @@ footer {
 }
 
 .reference {
-    width: 50%;
+    width: 90%;
 }
 
-.footer-bottom {
-    position: inherit;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
-}
-
+.form-booking {
+    margin-top: 10px;
+    }
 /*---------------------------------------------Buy Tickets*/
 
 .table-striped,
@@ -741,22 +792,49 @@ th {
         background-color: #7f0000;
         color: #FFFFFF;
         text-align: center;
-        height: 920px;
-        padding-left: 30px;
+        height: 100%;
+        
     }
 
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
-        height: 920px;
+        height: 100%
     }
-    
+    .bookings-callout {
+    height: 60vh;
+    margin-bottom: 45px;
+}
     .footer {
-        padding-top: 40px;
-    }
+    height: 15vh;
+    bottom: -1;
+    
+}
+
+.booking-form{
+    background-color: #FAFAFA;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
+.reviews {
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
+.what-we-do {
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
+.purchase-amazon img {
+ width: 95%;
+}
     ...
 }
+
 
 /* Portrait tablet to landscape and desktop */
 
@@ -786,14 +864,51 @@ th {
         height: 920px;
     }
     
-    .footer {
-        padding-top: 40px;
-    }
+    ..bookings-callout {
+    height: 50vh;
+    margin-bottom: 30px;
+}
+
+.footer {
+    height: 10vh;
+    bottom: -1;
+    padding-top: 20px;
+}
+
+.booking-form{
+    background-color: #FAFAFA;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
+.reviews {
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
+.what-we-do {
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
+.review-header {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: #FFFFFF;
+    background-color: #7f0000;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.purchase-amazon img {
+ width: 95%;
+}
     ...
 }
 
-...
-}
 
 /* Landscape phone to portrait tablet */
 
@@ -802,6 +917,35 @@ th {
         height: 600px;
     }
 
+.footer {
+    height: 20vh;
+    bottom: -1;
+    padding-top: 20px;
+}
+
+.booking-form{
+    background-color: #FAFAFA;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.booking-form{
+    background-color: #FAFAFA;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.reviews {
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.what-we-do {
+    padding-left: 140px;
+    padding-right: 190px;
+}
     ...
 }
 
@@ -911,7 +1055,9 @@ th {
         justify-content: center;
         position: relative;
     }
-    ...
+    .bookings-callout {
+    height: 50vh;
+    margin-bottom: 125px;
 }
 
 .the-band {
@@ -924,8 +1070,44 @@ th {
 }
 
 .footer {
+    height: 20vh;
+    bottom: -1;
+    padding-top: 20px;
+}
+
+.booking-form{
+    background-color: #FAFAFA;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.what-we-do{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.purchase-amazon img {
+ width: 95%;
+ margin-left: 0;
+}
+    ...
+}
+
+
+/* Smaller Phones */
+
+@media (min-width: 250px) and (max-width: 321px) {
+    
+
+.footer {
+    height: 35vh;
+    bottom: -1;
     padding-top: 75px;
 }
+    ...
+}
+
 /*---------------------------------------------*/
 
 
