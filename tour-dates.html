@@ -2,39 +2,15 @@
 <html>
 
     <head>
-    <meta name="theme-color" content="#cccccc"/>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <style>
-        :root {
-            --main-bg-color: #7f0000;
-            --main-txt-color: #FFFFFF;
-            --main-padding: 15px;
-        }
-
-        #div1 {
-            background-color: var(--main-bg-color);
-            color: var(--main-txt-color);
-            padding: var(--main-padding);
-            text-align: center;
-        }
-
-        #div2 {
-            background-color: var(--main-bg-color);
-            color: var(--main-txt-color);
-            padding: var(--main-padding);
-        }
-
-        #div3 {
-            background-color: var(--main-bg-color);
-            color: var(--main-txt-color);
-            padding: var(--main-padding);
-        }
-    </style>
+        <meta name="theme-color" content="#cccccc" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    
     </head>
 
     <body>
@@ -57,21 +33,33 @@
                 </div>
                 <div class="navbar-collapse collapse" id="navbar">
                     <ul class="nav navbar-nav options">
-                        <li class="active"><a class="options1" href="index.html">Home</a></li>
-                        <li class="active"><a class="options2" href="tour-dates.html">Tour Dates</a></li>
-                        <li class="active"><a class="options3" href="bookings.html">Bookings</a></li>
-                        <li class="active hidden-sm"><a class="options4" href="theband.html">The Band</a></li>
-                        <li class="active"><a class="options5" href="photos.html">Photos</a></li>
-                        <li class="active"><a class="options6" href="our-music.html">Our Music</a></li>
+                        <li class="active">
+                            <a class="options1" href="index.html">Home</a>
+                        </li>
+                        <li class="active">
+                            <a class="options6" href="our-music.html">Our Music</a>
+                        </li>
+                        <li class="active">
+                            <a class="options3" href="bookings.html">Bookings</a>
+                        </li>
+                        <li class="active">
+                            <a class="options2" href="tour-dates.html">Tour Dates</a>
+                        </li>
+                        <li class="active">
+                            <a class="options5" href="photos.html">Photos</a>
+                        </li>
+                        <li class="active hidden-sm">
+                            <a class="options4" href="theband.html">The Band</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!--End of header & navigation bar-->
+       
         <!--Tour Dates -->
         <main>
             <div class="row">
-                <div class="our-music-header uppercase">
+                <div class="tour-dates-header uppercase">
                     <h1 align="center"><span style="font-family:Spicy Rice">Tour Dates</span></h1>
                 </div>
             </div>
@@ -138,57 +126,76 @@
                 </div>
             </div>
         </main>
-        <!--End of Tickets Section-->
+        
         <!--Footer - Apply To Each Page -->
-        <footer class="container-fluid footer">
-            <div class="row footer-monkees">
-                <div class="col-xs-2 col-sm-4 col-md-4">
-                    <br>
-                    <button type="button" class="btn btn--red" data-toggle='modal' data-target='#subscribeModal'>Subscribe</button>
-                </div>
-                <div class="col-xs-10 col-sm-8 col-md-8">
-                    <h5 class="uppercase footer-heading">Social Media</h5>
-                    <div class="row">
-                        <ul class="list-inline social-links">
-                            <li><a class="facebook" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a class="instagram" target="_blank" href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a class="snapchat hidden-xs" target="_blank" href="/"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
-                            <li><a class="twitter" target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a class="spotify" target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
-                            <li><a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                            <li><a class="apple hidden-xs" target="_blank" href="/"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
-                            <li><a class="amazon hidden-xs" target="_blank" href="https://www.amazon.com/The-Monkees/e/B000APSYTO"><i class="fa fa-amazon" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
+    <footer class="container-fluid footer">
+        <div class="row footer-monkees">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="form-group">
+                    <form>
+                        <p>Enter your email address below to keep up to date with all The Monkees' news!</p>
+                        <input type="email" name="email" placeholder="Enter email address">
+                    </form>
+                    <button type="submit" class="btn btn-danger">Subscribe!</button>
                 </div>
             </div>
-        </footer>
-        <!-- Subscribe Modal -->
-        <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Sign Up For News About <span class="band-name">The Monkees</span>!</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="name" class="form-control" id="name" placeholder="Full Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <p class="help-block">We'll never share your email address with anyone</p>
-                            </div>
-                            <button type="submit" class="btn btn-danger">Subscribe!</button>
-                        </form>
-                    </div>
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <h5 align="center" class="uppercase footer-heading">Social Media</h5>
+                <div class="row">
+                    <ul class="list-inline social-links">
+                        <li>
+                            <a class="facebook" target="_blank" href="https://www.facebook.com/TheMonkees/">
+                                <i class="fa fa-facebook" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="instagram" target="_blank" href="https://www.instagram.com/themonkees/?hl=en">
+                                <i class="fa fa-instagram" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="snapchat hidden-xs" target="_blank" href="/">
+                                <i class="fa fa-snapchat" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="twitter" target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                <i class="fa fa-twitter" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="spotify" target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck">
+                                <i class="fa fa-spotify" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA">
+                                <i class="fa fa-youtube" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="apple" target="_blank" href="/">
+                                <i class="fa fa-apple" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="amazon" target="_blank" href="https://www.amazon.com/The-Monkees/e/B000APSYTO">
+                                <i class="fa fa-amazon" aria-hidden="true">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!--End of Subscribe Modal-->
+    </footer>
     
     
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
