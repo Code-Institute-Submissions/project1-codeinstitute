@@ -4,7 +4,32 @@
 
 /*------------------------------------------------------------Body */
 
+/*------------------------------------------------------------Variables */
+ :root {
+            --main-bg-color: #7f0000;
+            --main-txt-color: #FFFFFF;
+            --main-padding: 15px;
+        }
 
+        #div1 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+            text-align: center;
+        }
+
+        #div2 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+
+        #div3 {
+            background-color: var(--main-bg-color);
+            color: var(--main-txt-color);
+            padding: var(--main-padding);
+        }
+    }
 /*---------------------------------------------Navbar*/
 
 body {
@@ -12,23 +37,28 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
-      }
+    }
+    
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    }
 
 .navbar a {
     color: #FFFFFF;
     text-align: center;
-}
+    }
 
 .sr-only icon-bar {
     color: #FFFFFF;
-}
+    }
 
 .navbar-header {
     background-color: #7f0000;
     color: #FFFFFF;
     font-family: 'Spicy Rice', sans-serif;
     font-weight: 100;
-}
+    }
 
 .navbar {
     margin-bottom: 0;
@@ -39,18 +69,19 @@ body {
     z-index: 1;
     background-color: #7f0000;
     border: 0;
-}
+    border-radius: 0;
+    }
 
 .navbar .navbar-brand {
     color: #FFFFFF;
     font-size: 30px;
-}
+    }
 
 .navbar-brand-sm {
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'Spicy Rice', sans-serif;
-}
+    }
 
 .navbar .navbar-brand:hover {
     transition: ease-in-out 0.6s;
@@ -63,17 +94,17 @@ body {
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: #FFFFFF;
-}
+    }
 
 .navbar ul {
     text-align: center;
     color: #FFFFFF;
-}
+    }
 
 .navbar-default .navbar-nav a {
     color: #FFFFFF;
 
-}
+    }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
@@ -81,12 +112,12 @@ body {
     color: #FFFFFF;
     background: transparent;
 
-}
+    }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
-}
+    }
 
 .navbar-btn {
     border: 0;
@@ -94,13 +125,13 @@ body {
     width: 100px;
     background-color: #f05f40;
     color: #FFFFFF;
-}
+    }
 
 .navbar-btn:hover {
     background-color: #FF0000;
     border-color: #df4929;
     color: #FFFFFF;
-}
+    }
 
 .options {
     color: #FFFFFF;
@@ -109,13 +140,13 @@ body {
     text-decoration: none;
     padding: 5px 8px 0 5px;
     margin: 0 10px;
-    ;
-}
+    
+    }
 
 .options1 {
     transition: 0.6s;
 
-}
+    }
 
 .options1:hover {
     -ms-transform: rotate(-5deg);
@@ -127,11 +158,11 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-}
+    }
 
 .options2 {
     transition: 0.6s;
-}
+    }
 
 .options2:hover {
     -ms-transform: rotate(-5deg);
@@ -143,12 +174,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-}
+    }
 
 .options3 {
     transition: 0.6s;
 
-}
+    }
 
 .options3:hover {
     -ms-transform: rotate(-5deg);
@@ -160,12 +191,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-}
+    }
 
 .options4 {
     transition: 0.6s;
 
-}
+    }
 
 .options4:hover {
     -ms-transform: rotate(-5deg);
@@ -177,12 +208,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-}
-
+    }
+    
 .options5 {
     transition: 0.6s;
 
-}
+    }
 
 .options5:hover {
     -ms-transform: rotate(-5deg);
@@ -194,12 +225,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-}
+    }
 
 .options6 {
     transition: 0.6s;
 
-}
+    }
 
 .options6:hover {
     -ms-transform: rotate(-5deg);
@@ -211,11 +242,11 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-}
+    }
 
 .below-navbar {
     padding-top: 30px;
-}
+    }
 
 /*---------------------------------------------Footer*/
 
@@ -226,7 +257,7 @@ footer .monkees-footer {
     text-align: center;
     position: fixed;
     }
-    
+
 
 footer {
     background-color: #D3D3D3;
@@ -234,6 +265,7 @@ footer {
     bottom: -1;
     width: 100%;
     text-align: center;
+    height: 20vh;
     }
 
 .footer-bottom {
@@ -245,40 +277,50 @@ footer {
     background-color: #D3D3D3;
     text-align: center;
     }
-    
+
 .footer-booking-theband {
     position: inherit
     }
-    
+
 .last-section {
     margin-bottom: 20px;
-}
+    }
 
 .contact-envelope {
     font-size: 25px;
-}
+    }
 
 .social-links {
     font-size: 30px;
-    margin-left: 60px;
-    
-}
+    margin-left: 25px;
+    text-align: center;
+    margin-right: 25px;
+
+    }
 
 .footer-heading {
-    margin-left: 60px;
+    text-align: center;
+    }
+
+.footer-bookings {
+    background-color: #DCDCDC;
+    min-height: 100vh;
 }
 
 .last-section {
     height: 60vh;
-    margin-bottom: 5px;
-}
+    }
 
+.form-group p {
+    font-size: 1em;
+    font-family: 'Acme';
+    }
 
 /*---------------------------------------------Jumbotron*/
 
 .jumbotron {
     background-color: transparent;
-}
+    }
 
 .jumbotron {
     color: white;
@@ -286,13 +328,13 @@ footer {
     color: white;
     width: 100%;
 
-}
+    }
 
 .jumbotron .lead {
     color: #FFFFFF;
     margin: 25px 0;
     font-weight: bold;
-}
+    }
 
 
 
@@ -300,158 +342,170 @@ footer {
 
 .section-header {
     color: #7f0000;
-}
+    }
 
 .uppercase {
     text-transform: uppercase;
     color: #7f0000;
-}
+    }
 
 .block-divider--white {
     background-color: #FFFFFF;
     font-weight: 200;
     width: 90%;
-}
+    }
 
 .block-divider--red {
     background-color: #7f0000;
     font-weight: 200;
     width: 60px;
-}
+    }
 
 .btn--red {
     background-color: #7f0000;
     color: #FFFFFF;
-}
+    }
 
 .btn--red:hover {
     background-color: #7f0000;
     color: #FAFAFA;
-}
+    }
 
 .btn--red:onclick {
     background-color: #7f0000;
     color: #FAFAFA;
-}
+    }
+
 .btn {
     margin: 10px 5px 10px 5px;
-}
+    }
 
 .btn--white {
     background-color: #FFFFFF;
     color: #7f0000;
     text-decoration: bold;
-}
+    }
 
 .button-to-bottom {
     padding-bottom: 6px;
     padding-top: 78px;
-}
+    }
 
 .band-name {
     font-family: 'Spicy+Rice', sans-serif;
-}
+    }
 
 p {
     margin: 0 0 10px;
     padding: 0 20px 0 20px;
-}
+    }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     padding-left: 5px;
     padding-right: 5px;
-}
+    }
 
 /*--Social Media/Follow Us Section*/
 
 .social-media {
     background-color: #FFFFFF;
-}
+    }
 
 .wrapper-sm {
     background-color: #FFFFFF;
     height: 500px;
-}
+    }
 
 .tablet-sm-btns a {
     text-align: justify;
     padding: 5px;
-}
+    }
 
 .social-media-header {
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
-}
+    }
 
 .phone-sm-btns {
     font-size: 30px;
     padding: 5px;
     text-align: center;
-}
+    }
 
 .spotify {
     color: #1db954;
-    
-}
+
+    }
 
 .facebook {
     color: #3b5998;
-}
+    }
 
 .apple {
     color: #000000;
-}
+    }
 
 .instagram {
     color: #c13584;
-}
+    }
 
 .amazon {
     color: #ff9900;
-}
+    }
 
 .snapchat {
     color: #fffc00;
-}
+    }
 
 .youtube {
     color: #ff0000;
-}
+    }
 
 .twitter {
     color: #1da1f2;
-}
+    }
 
 .watch {
     margin-top: 15px;
-    margin-bottom: 15px;
-}
+    margin-bottom: 0;
+    }
 
 /*---------------------------------------------Homepage*/
+
 /*--Listen Section*/
+.song-title {
+    font-family: 'Acme';
+    }
 
 .listen-header {
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
-}
+    }
 
 .container-wrapper--red {
     background-color: #7f0000;
     color: #FFFFFF;
     height: 500px;
-}
+    }
 
 .youtube-wrapper {
     background-color: #7f0000;
-}
+    }
 
 .youtube-title {
     background-color: #FFFFFF;
-}
+    }
 
 /*--Callout Containers*/
+
 .callout-container1 {
     min-height: 80vh;
     font-family: 'Acme', sans-serif;
@@ -466,7 +520,7 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
     top: 0px;
     margin-top: 15px;
-}
+    }
 
 .callout-container2 {
     min-height: 80vh;
@@ -480,10 +534,10 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 15px;
 
-}
+    }
 
 .callout-container3 {
     font-family: 'Acme', sans-serif;
@@ -496,8 +550,8 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 15px;
-}
+    margin-bottom: -150px;
+    }
 
 
 .opaque-overlay {
@@ -507,12 +561,12 @@ h1, h2, h3, h4, h5, h6, p {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-}
+    }
 
 .bookings-callout {
     height: 42vh;
     margin-bottom: 125px;
-}
+    }
 
 /*---------------------------------------------Our Music Page*/
 
@@ -520,32 +574,44 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     left: auto;
     right: auto;
-}
+    }
 
 .spotify-section {
     min-height: 100vh;
-}
+    }
 
 .purchase-amazon img {
- padding: 20px 25px 20px 25px;
- border-color: #FAFAFA;
- border-style: solid;
- border-width: 6px;
- background-color: #7f0000;
-}
+    padding: 20px 25px 20px 25px;
+    border-color: #FAFAFA;
+    border-style: solid;
+    border-width: 6px;
+    background-color: #7f0000;
+    }
 
 .our-music-header {
     color: #7f0000;
-}
+    }
 
 /*---------------------------------------------The Band*/
+.about-photo {
+    width: 100%;
+    background-color: #7f0000;
+    align-items: center;
+}
+.about-photo img {
+    width: 99.5%;
+    padding: 15px;
+    
+}
+
+
 .history-wrapper1 {
     background-color: #7f0000;
     color: #FFFFFF;
     text-align: center;
     height: 925px;
 
-}
+    }
 
 .history-wrapper2 {
     background-color: #FFFFFF;
@@ -553,7 +619,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     height: 1250px;
 
-}
+    }
 
 .history-wrapper-smred {
     background-color: #7f0000;
@@ -561,46 +627,46 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     height: 1250px;
     padding-left: 30px;
-}
+    }
+    
+.history-wrapper-smred-pt {
+    background-color: #7f0000;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 30px;
+    }
 
 .history-wrapper-smwhite {
     background-color: #FFFFFF;
     color: #7f0000;
     text-align: center;
-    height: 1250px;
+    height: 100%;
     padding-left: 30px;
-}
+    }
 
 .history-wrapper-smred img {
     height: 150px;
-}
+    }
 
 .history-wrapper-smyellow img {
     height: 150px;
-}
+    }
 
 
 .history {
     padding-bottom: 20px;
     width: 98%;
-}
+    }
 
 .history-info {
-    font-family: 'Acme', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     padding-left: 14px;
     padding-right: 14px;
     margin: 3px;
-}
+    }
 
-.wikipedia-credit1 {
-    color: #c0b3c2;
-}
-
-.wikipedia-credit2 a {
-    color: #000000;
-}
 /*News*/
 
 .news-headline {
@@ -608,14 +674,14 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 500;
     text-align: center;
 
-}
+    }
 
 .news-item {
     font-family: 'Acme', sans-serif;
     font-size: 20px;
 
 
-}
+    }
 
 .newswrapper-red {
     background-color: #7f0000;
@@ -624,7 +690,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: auto;
     margin-left: auto;
     max-width: 600px;
-}
+    }
 
 .storywrapper {
     color: #000000;
@@ -632,25 +698,27 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 22px;
     padding: 5px 20px 5px 20px;
     margin-right: 0px;
-}
+    }
 
 .featured-image {
     width: 100%;
     height: auto;
     overflow: hidden;
-}
+    }
 
 .band-history {
     font-size: 20px;
     color: #000000;
     }
 
-.band-history,p {
+.band-history,
+p {
     padding-left: 2px;
     padding-right: 2px;
     text-transform: none;
     font-size: 20px;
-}
+    }
+
 /*---------------------------------------------Photos*/
 
 .insta-note {
@@ -660,12 +728,22 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FFFFFF;
     min-height: 25vh;
     padding-top: 50px;
-}
+    }
 
-.photo-gallery img {
-    width: 100%;
-    margin-bottom: 0;
-}
+.photo-gallery  {
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+    }
+    
+
+
 
 .opaque-overlay3 {
     position: absolute;
@@ -674,22 +752,36 @@ h1, h2, h3, h4, h5, h6, p {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-}
+    }
 
-
+.photo-square {
+    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
+    width: auto;
+    height: 200px;
+    background-color: #7f0000;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+    margin: 35px;
+    }
+    
+.photo-square img {
+    max-height: 98%;
+    }
+ 
 /*---------------------------------------------Bookings Page*/
-.booking-form{
+
+.booking-form {
     background-color: #FAFAFA;
     align-items: center;
-}
+    }
 
 .list-items {
     font-size: 26px;
-}
+    }
 
 .bookinglist {
     text-align: center;
-}
+    }
 
 /* Quotes */
 
@@ -702,17 +794,22 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 10px;
     margin-bottom: 20px;
     align-items: center;
-}
+    }
 
 .quotes .page-header {
     margin-bottom: 10px;
     color: #FFFFFF;
 
-}
+    }
+
+.bookings-header {
+    margin-top: 55px;
+    }
+
 
 .blockquote.quote {
     border-left: 0;
-}
+    }
 
 .quotes {
     font-family: 'Acme', sans-serif;
@@ -720,29 +817,30 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #7f0000;
     margin-bottom: 30px;
     width: 90%;
-}
+    }
 
 .testimonials {
     padding-bottom: 15px;
-}
+    }
 
 .reference {
     width: 90%;
-}
+    }
 
 .form-booking {
     margin-top: 10px;
     }
+
 /*---------------------------------------------Buy Tickets*/
 
 .table-striped,
 th {
     text-align: center;
-}
+    }
 
 th {
     text-transform: uppercase;
-}
+    }
 
 .table {
     font-family: 'Acme', sans-serif;
@@ -753,13 +851,13 @@ th {
     margin-right: auto;
     overflow: scroll;
     min-height: 100vh;
-}
+    }
 
 .tickets {
     color: #7f0000;
     transition: 0.6s;
-}
-
+    }
+    
 .tickets:hover {
     color: #7f0000;
     -ms-transform: rotate(-5deg);
@@ -770,7 +868,7 @@ th {
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
 
-}
+    }
 
 
 /*---------------------------------------------Media Queries*/
@@ -779,7 +877,7 @@ th {
 
 @media (min-width: 1200px) {
     .youtube-player {
-        height: 800px;
+        min-height: 550px;
     }
 
     .spotify-player {
@@ -793,7 +891,14 @@ th {
         color: #FFFFFF;
         text-align: center;
         height: 100%;
-        
+    }
+    
+    .history-wrapper-smred-pt {
+    background-color: #7f0000;
+    color: #FFFFFF;
+    text-align: center;
+    height: 500px;
+    padding-left: 30px;
     }
 
     .history-wrapper-smwhite {
@@ -803,35 +908,50 @@ th {
         height: 100%
     }
     .bookings-callout {
-    height: 60vh;
-    margin-bottom: 45px;
-}
-    .footer {
-    height: 15vh;
-    bottom: -1;
+        height: 60vh;
+        margin-bottom: 45px;
+    }
     
-}
+    .bookings-header {
+    margin-top: 55px;
+    }
+    
+    .footer {
+        min-height: 25vh;
+        bottom: -1;
+        margin-bottom: 0;
+        padding-top: 15px;
 
-.booking-form{
-    background-color: #FAFAFA;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 190px;
-}
+    }
 
-.reviews {
-    padding-left: 150px;
-    padding-right: 190px;
-}
+    .booking-form {
+        background-color: #FAFAFA;
+        align-items: center;
+        padding-left: 150px;
+        padding-right: 190px;
+    }
 
-.what-we-do {
-    padding-left: 150px;
-    padding-right: 190px;
-}
+    .reviews {
+        padding-left: 150px;
+        padding-right: 190px;
+    }
 
-.purchase-amazon img {
- width: 95%;
-}
+    .what-we-do {
+        padding-left: 150px;
+        padding-right: 190px;
+    }
+
+    .purchase-amazon img {
+        width: 95%;
+    }
+    .last-section {
+        margin-bottom: 27.5px;
+    }
+    
+    .form-group p {
+    font-size: 1em;
+    font-family: 'Acme';
+    }
     ...
 }
 
@@ -856,6 +976,14 @@ th {
         height: 920px;
         padding-left: 30px;
     }
+    
+    .history-wrapper-smred-pt {
+    background-color: #7f0000;
+    color: #FFFFFF;
+    text-align: center;
+    height: 940px;
+    padding-left: 30px;
+    }
 
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
@@ -863,49 +991,60 @@ th {
         text-align: center;
         height: 920px;
     }
-    
+
     ..bookings-callout {
-    height: 50vh;
-    margin-bottom: 30px;
-}
+        height: 50vh;
+        margin-bottom: 30px;
+    }
 
-.footer {
-    height: 10vh;
-    bottom: -1;
-    padding-top: 20px;
-}
+    .footer {
+        min-height: 30vh;
+        bottom: -1;
+        padding-top: 30px;
+    }
 
-.booking-form{
-    background-color: #FAFAFA;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 190px;
-}
+    .booking-form {
+        background-color: #FAFAFA;
+        align-items: center;
+        padding-left: 150px;
+        padding-right: 190px;
+    }
+    
+    .bookings-header {
+    margin-top: 45px;
+    }
+    .reviews {
+        padding-left: 150px;
+        padding-right: 190px;
+    }
 
-.reviews {
-    padding-left: 150px;
-    padding-right: 190px;
-}
+    .what-we-do {
+        padding-left: 150px;
+        padding-right: 190px;
+    }
 
-.what-we-do {
-    padding-left: 150px;
-    padding-right: 190px;
-}
+    .review-header {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
+        color: #FFFFFF;
+        background-color: #7f0000;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
 
-.review-header {
-    text-align: center;
-    font-family: 'Acme', sans-serif;
-    color: #FFFFFF;
-    background-color: #7f0000;
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    align-items: center;
-}
-
-.purchase-amazon img {
- width: 95%;
-}
+    .purchase-amazon img {
+        width: 95%;
+    }
+    .last-section {
+        margin-bottom: -100px;
+    }
+    
+    .form-group p {
+    font-size: 1em;
+    font-family: 'Acme';
+    }
     ...
 }
 
@@ -917,35 +1056,51 @@ th {
         height: 600px;
     }
 
-.footer {
-    height: 20vh;
-    bottom: -1;
-    padding-top: 20px;
-}
+    .footer {
+        min-height: 45vh;
+        bottom: -1;
+        padding-top: 20px;
+    }
+    
+    .bookings-header {
+    margin-top: 50px;
+    }
+    
+    .booking-form {
+        background-color: #FAFAFA;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
-.booking-form{
-    background-color: #FAFAFA;
-    align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
+    .booking-form {
+        background-color: #FAFAFA;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 150px;
+    }
 
-.booking-form{
-    background-color: #FAFAFA;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 150px;
-}
+    .reviews {
+        padding-left: 10px;
+        padding-right: 15px;
+    }
 
-.reviews {
-    padding-left: 100px;
-    padding-right: 150px;
-}
-
-.what-we-do {
-    padding-left: 140px;
-    padding-right: 190px;
-}
+    .what-we-do {
+        padding-left: 14px;
+        padding-right: 19px;
+    }
+    .footer {
+        min-height: 40vh;
+        bottom: -1;
+        padding-top: 40px;
+        margin-top: 10px;
+    }
+    
+    .form-group p {
+    font-size: 1em;
+    font-family: 'Acme';
+    padding-top: 40px;
+    }
     ...
 }
 
@@ -969,7 +1124,7 @@ th {
         justify-content: center;
         position: relative;
         top: -125px;
-        margin-bottom: -215px;
+        margin-bottom: -240px;
     }
 
     .opaque-overlay1 {
@@ -999,21 +1154,7 @@ th {
         padding: 20px 5px 3px 20px;
     }
 
-    .wikipedia-credit1 {
-        color: #c0b3c2;
-        font-size: 10px;
-        width: 70%;
-        padding-left: 75px;
-    }
-
-    .wikipedia-credit2 {
-        color: #00000;
-        font-size: 10px;
-        width: 70%;
-        padding-left: 75px;
-    }
-
-    .news-item {
+       .news-item {
         font-family: 'Acme', sans-serif;
         font-size: 20px;
         padding-left: 20px;
@@ -1038,7 +1179,7 @@ th {
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: 20px;
+        margin-top: 0px;
 
     }
 
@@ -1056,41 +1197,62 @@ th {
         position: relative;
     }
     .bookings-callout {
-    height: 50vh;
-    margin-bottom: 125px;
-}
+        height: 50vh;
+        margin-bottom: 125px;
+    }
 
-.the-band {
-    width: 100%;
-}
+    .the-band {
+        width: 100%;
+    }
 
-.reference {
-    padding-top: 0;
-    width: 80%;
-}
+    .reference {
+        padding-top: 0;
+        width: 80%;
+    }
 
-.footer {
-    height: 20vh;
-    bottom: -1;
-    padding-top: 20px;
-}
+    .footer {
+        min-height: 50vh;
+        bottom: -1;
+        
+    }
 
-.booking-form{
-    background-color: #FAFAFA;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    .booking-form {
+        background-color: #FAFAFA;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-.what-we-do{
-    padding-left: 2px;
-    padding-right: 2px;
-}
+    .what-we-do {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
 
-.purchase-amazon img {
- width: 95%;
- margin-left: 0;
-}
+    .purchase-amazon img {
+        width: 95%;
+        margin-left: 0;
+    }
+    
+    .social-links {
+    font-size: 25px;
+    margin-left: 5px;
+    text-align: center;
+    margin-right: 5px;
+    }
+
+    .watch {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    }
+    
+    .last-section {
+        margin-bottom: 80px;
+    }
+    
+    .form-group p {
+    font-size: 1em;
+    font-family: 'Acme';
+    }
     ...
 }
 
@@ -1098,26 +1260,14 @@ th {
 /* Smaller Phones */
 
 @media (min-width: 250px) and (max-width: 321px) {
-    
 
-.footer {
-    height: 35vh;
-    bottom: -1;
-    padding-top: 75px;
-}
+
+    .footer {
+        min-height: 50vh;
+        bottom: -1;
+        font-family: 'Acme';
+    }
     ...
 }
-
-/*---------------------------------------------*/
-
-
-/*---------------------------------------------*/
-
-
-/*---------------------------------------------*/
-
-
-/*---------------------------------------------*/
-
 
 /*---------------------------------------------*/
