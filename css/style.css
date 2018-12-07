@@ -25,8 +25,8 @@
         }
 
         #div3 {
-            background-color: var(--main-bg-color);
-            color: var(--main-txt-color);
+            background-color: #cccccc;
+            color: #000000;
             padding: var(--main-padding);
         }
     }
@@ -37,6 +37,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     width: 100%;
+    background-color: #FAFAFA;
     }
     
 .row {
@@ -245,7 +246,7 @@ body {
     }
 
 .below-navbar {
-    padding-top: 30px;
+    margin-top: 60px;
     }
 
 /*---------------------------------------------Footer*/
@@ -265,7 +266,7 @@ footer {
     bottom: -1;
     width: 100%;
     text-align: center;
-    height: 20vh;
+    min-height: 20vh;
     }
 
 .footer-bottom {
@@ -662,8 +663,8 @@ p {
     font-family: 'Muli', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 3px;
     }
 
@@ -716,18 +717,19 @@ p {
     padding-left: 2px;
     padding-right: 2px;
     text-transform: none;
-    font-size: 20px;
+    font-size: 1.2em;
     }
 
 /*---------------------------------------------Photos*/
 
 .insta-note {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: -15px;
     background-color: #7f0000;
     color: #FFFFFF;
     min-height: 25vh;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
 .photo-gallery  {
@@ -769,7 +771,13 @@ p {
     }
  
 /*---------------------------------------------Bookings Page*/
+.form-center {
+    text-align: center;
+    margin: auto 0;
+    background-color: #FAFAFA;
+    }
 
+    
 .booking-form {
     background-color: #FAFAFA;
     align-items: center;
@@ -781,15 +789,22 @@ p {
 
 .bookinglist {
     text-align: center;
+    background-color: #7f0000;
+    color: #FAFAFA;
+    max-width: 200px;
     }
-
+.bookingoptions {
+    background-color: #FAFAFA;
+    color: #000000;
+    }
+    
 /* Quotes */
 
 .reviews {
     text-align: center;
     font-family: 'Acme', sans-serif;
-    color: #FFFFFF;
-    background-color: #7f0000;
+    color: #7f0000;
+    background-color: #FAFAFA;
     padding-top: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -813,8 +828,8 @@ p {
 
 .quotes {
     font-family: 'Acme', sans-serif;
-    color: #FFFFFF;
-    background-color: #7f0000;
+    color: #7f0000;
+    background-color: #FAFAFA;
     margin-bottom: 30px;
     width: 90%;
     }
@@ -832,6 +847,11 @@ p {
     }
 
 /*---------------------------------------------Buy Tickets*/
+.tour-dates-header {
+    color: #7f0000;
+    margin-top: 60px;
+    }
+
 
 .table-striped,
 th {
@@ -867,7 +887,6 @@ th {
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
-
     }
 
 
@@ -878,20 +897,20 @@ th {
 @media (min-width: 1200px) {
     .youtube-player {
         min-height: 550px;
-    }
+        }
 
     .spotify-player {
         align-items: center;
         left: 200px;
         right: 250px;
-    }
+        }
 
     .history-wrapper-smred {
         background-color: #7f0000;
         color: #FFFFFF;
         text-align: center;
         height: 100%;
-    }
+        }
     
     .history-wrapper-smred-pt {
     background-color: #7f0000;
@@ -899,61 +918,79 @@ th {
     text-align: center;
     height: 500px;
     padding-left: 30px;
-    }
+        }
 
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
         height: 100%
-    }
+        }
     .bookings-callout {
         height: 60vh;
         margin-bottom: 45px;
-    }
+        }
     
     .bookings-header {
     margin-top: 55px;
+        }
+    
+    .booking-form {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
     }
+    
+    .booking-form form {
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
     
     .footer {
         min-height: 25vh;
         bottom: -1;
         margin-bottom: 0;
-        padding-top: 15px;
-
-    }
+        padding-top: 30px;
+        margin-top: 10px;
+        }
+        
+    .last-section {
+        margin-bottom: -10px;
+        }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 150px;
         padding-right: 190px;
-    }
+        }
 
     .reviews {
         padding-left: 150px;
         padding-right: 190px;
-    }
+        }
 
     .what-we-do {
         padding-left: 150px;
         padding-right: 190px;
-    }
+        }
 
     .purchase-amazon img {
         width: 95%;
-    }
-    .last-section {
-        margin-bottom: 27.5px;
-    }
+        }
+    
     
     .form-group p {
     font-size: 1em;
     font-family: 'Acme';
-    }
+        }
     ...
-}
+    }
 
 
 /* Portrait tablet to landscape and desktop */
@@ -961,67 +998,84 @@ th {
 @media (min-width: 768px) and (max-width: 979px) {
     .youtube-player {
         height: 700px;
-    }
+        }
 
     .spotify-player {
         align-items: center;
         left: 10px;
 
-    }
+        }
 
     .history-wrapper-smred {
         background-color: #7f0000;
         color: #FFFFFF;
         text-align: center;
-        height: 920px;
+        height: 600px;
         padding-left: 30px;
-    }
+        }
     
     .history-wrapper-smred-pt {
     background-color: #7f0000;
     color: #FFFFFF;
     text-align: center;
-    height: 940px;
+    height: 600x;
     padding-left: 30px;
-    }
+        }
 
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
-        height: 920px;
-    }
+        height: 600px;
+        }
 
     ..bookings-callout {
         height: 50vh;
         margin-bottom: 30px;
+        }
+    
+    .insta-note {
+    margin-top: 0;
+    background-color: #7f0000;
+    color: #FFFFFF;
+    min-height: 15vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
-
+    
     .footer {
         min-height: 30vh;
         bottom: -1;
-        padding-top: 30px;
-    }
+        padding-top: 50px;
+        }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 150px;
         padding-right: 190px;
-    }
+        }
+    
+    .booking-form form {
+    width: 75%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        }
     
     .bookings-header {
     margin-top: 45px;
-    }
+        }
     .reviews {
         padding-left: 150px;
         padding-right: 190px;
-    }
+        }
 
     .what-we-do {
         padding-left: 150px;
         padding-right: 190px;
-    }
+        }
 
     .review-header {
         text-align: center;
@@ -1032,21 +1086,21 @@ th {
         margin-top: 10px;
         margin-bottom: 20px;
         align-items: center;
-    }
+        }
 
     .purchase-amazon img {
         width: 95%;
-    }
+        }
     .last-section {
         margin-bottom: -100px;
-    }
+        }
     
     .form-group p {
     font-size: 1em;
     font-family: 'Acme';
-    }
+        }
     ...
-}
+    }
 
 
 /* Landscape phone to portrait tablet */
@@ -1054,62 +1108,93 @@ th {
 @media (max-width: 767px) {
     .youtube-player {
         height: 600px;
-    }
+        }
 
     .footer {
         min-height: 45vh;
         bottom: -1;
-        padding-top: 20px;
-    }
+        padding-top: 40px;
+        }
     
     .bookings-header {
     margin-top: 50px;
-    }
+        }
     
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 40px;
         padding-right: 40px;
-    }
+        }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 100px;
         padding-right: 150px;
-    }
-
+        }
+    
+    .booking-form form {
+    width: 75%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        }
+    
     .reviews {
         padding-left: 10px;
         padding-right: 15px;
-    }
+        }
 
     .what-we-do {
         padding-left: 14px;
         padding-right: 19px;
-    }
+        }
     .footer {
         min-height: 40vh;
         bottom: -1;
         padding-top: 40px;
         margin-top: 10px;
-    }
+        }
     
     .form-group p {
     font-size: 1em;
     font-family: 'Acme';
     padding-top: 40px;
-    }
+        }
+    
+    .bookings-callout {
+    height: 42vh;
+    margin-bottom: 75px;
+        }
+    
+    .photo-square {
+    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
+    width: auto;
+    height: auto;
+    background-color: #7f0000;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    margin: 12px;
+    text-align: center;
+    display: flex;
+        }
+        
+    .photo-square img {
+    width: auto;
+    height: 190px;
+        }
+    
     ...
-}
+    }
 
 /* Landscape phones and down */
 
 @media (max-width: 480px) {
     .youtube-player {
         height: 550px;
-    }
+        }
     .callout-container1 {
         height: 25vh;
         width: 100vw;
@@ -1125,46 +1210,50 @@ th {
         position: relative;
         top: -125px;
         margin-bottom: -240px;
-    }
+        }
 
     .opaque-overlay1 {
         display: none;
-    }
+        }
+        
     .band-history {
         padding-left: 35px;
         padding-right: 15px;
-    }
+        }
+        
     .history-wrapper-smred {
         background-color: #7f0000;
         color: #FFFFFF;
         text-align: center;
-        height: 940px;
-    }
-
+        height: auto;
+        }
+        
+    
+        
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
-        height: 1000px;
-
-    }
+        height: auto;
+        }
+        
     .history-info {
         width: 90%;
         font-size: 18px;
-        padding: 20px 5px 3px 20px;
-    }
+        padding: 10px 5px 3px 10px;
+        }
 
        .news-item {
         font-family: 'Acme', sans-serif;
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
-    }
+        }
     .spotify-player {
         align-items: center;
         left: 10px;
 
-    }
+        }
 
     .callout-container2 {
         min-height: 80vh;
@@ -1181,7 +1270,7 @@ th {
         position: relative;
         margin-top: 0px;
 
-    }
+        }
 
     .callout-container3 {
         font-family: 'Acme', sans-serif;
@@ -1195,66 +1284,83 @@ th {
         align-items: center;
         justify-content: center;
         position: relative;
-    }
+        }
     .bookings-callout {
         height: 50vh;
         margin-bottom: 125px;
-    }
+        }
 
     .the-band {
         width: 100%;
-    }
+        }
 
     .reference {
         padding-top: 0;
         width: 80%;
-    }
+        }
 
     .footer {
         min-height: 50vh;
         bottom: -1;
         
-    }
+        }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
-    }
+        }
 
     .what-we-do {
         padding-left: 2px;
         padding-right: 2px;
-    }
+        }
 
     .purchase-amazon img {
         width: 95%;
         margin-left: 0;
-    }
+        }
     
     .social-links {
     font-size: 25px;
     margin-left: 5px;
     text-align: center;
     margin-right: 5px;
-    }
+        }
 
     .watch {
     margin-top: 15px;
     margin-bottom: -15px;
-    }
+        }
     
     .last-section {
         margin-bottom: 80px;
-    }
+        }
     
     .form-group p {
     font-size: 1em;
     font-family: 'Acme';
-    }
+        }
+        
+    .photo-square {
+    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
+    width: auto;
+    height: auto;
+    background-color: #7f0000;
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+        }
+        
+    .photo-square img {
+    width: auto;
+    height: 135px;
+        }
     ...
-}
+    }
 
 
 /* Smaller Phones */
@@ -1266,8 +1372,20 @@ th {
         min-height: 50vh;
         bottom: -1;
         font-family: 'Acme';
-    }
+        }
     ...
-}
+    }
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
+
+/*---------------------------------------------*/
+
 
 /*---------------------------------------------*/
