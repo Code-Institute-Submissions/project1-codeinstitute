@@ -1254,8 +1254,8 @@ th {
         }
     .spotify-player {
         align-items: center;
-        left: 10px;
-
+        left: 5px;
+        width: 80%
         }
 
     .callout-container2 {
