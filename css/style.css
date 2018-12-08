@@ -670,6 +670,10 @@ p {
 
 /*News*/
 
+.news-title {
+    margin-top: 60px;
+    }
+
 .news-headline {
     font-family: 'Acme', sans-serif;
     font-weight: 500;
