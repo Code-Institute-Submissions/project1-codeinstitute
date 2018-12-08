@@ -748,9 +748,6 @@ p {
   justify-content: space-around;
     }
     
-
-
-
 .opaque-overlay3 {
     position: absolute;
     top: 0;
@@ -760,20 +757,17 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     }
 
-.photo-square {
-    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
-    width: auto;
-    height: 200px;
-    background-color: #7f0000;
-    align-items: center;
-    padding: 20px 15px 20px 15px;
-    margin: 35px;
-    }
-    
-.photo-square img {
-    max-height: 98%;
-    }
  
+ div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+  padding: 2px 10px 10px 30px;
+  align-items: center;
+    }
+  
+  div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img{
+  height: 185px;
+  width: 185px;
+  }
+  
 /*---------------------------------------------Bookings Page*/
 .form-center {
     text-align: center;
@@ -1363,6 +1357,15 @@ th {
     width: auto;
     height: 135px;
         }
+        
+    div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+      padding: 0px;
+      }
+  
+     div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img{
+      height: 150px;
+      width: 150px;
+      }
     ...
     }
 
