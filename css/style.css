@@ -1122,6 +1122,11 @@ th {
         width: 90%;
 
         }
+ 
+    .navbar {
+        width: 100%
+        }
+ 
     .footer {
         min-height: 45vh;
         bottom: -1;
