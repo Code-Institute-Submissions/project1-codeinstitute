@@ -575,7 +575,7 @@ p {
 
 .spotify-player {
     align-items: center;
-    left: 90px;
+    left: 140px;
     right: auto;
     }
 
@@ -1003,7 +1003,7 @@ th {
 
     .spotify-player {
         align-items: center;
-        left: 10px;
+        left: 30px;
         width: 90%;
 
         }
