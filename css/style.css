@@ -1365,6 +1365,10 @@ th {
       height: 150px;
       width: 150px;
       }
+ 
+    .navbar {
+        width: 100%;
+        }
     ...
     }
 
@@ -1378,6 +1382,11 @@ th {
         min-height: 50vh;
         bottom: -1;
         font-family: 'Acme';
+        width: 100%;
+        }
+        
+    .navbar {
+        width: 100%;
         }
     ...
     }
