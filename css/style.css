@@ -82,6 +82,7 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'Spicy Rice', sans-serif;
+    width: 100%;
     }
 
 .navbar .navbar-brand:hover {
@@ -583,11 +584,12 @@ p {
     }
 
 .purchase-amazon img {
-    padding: 20px 25px 20px 25px;
+    padding: 10px 12.5px 10px 12.5px;
     border-color: #FAFAFA;
     border-style: solid;
     border-width: 6px;
     background-color: #7f0000;
+    width: 225px;
     }
 
 .our-music-header {
@@ -627,7 +629,7 @@ p {
     background-color: #7f0000;
     color: #FFFFFF;
     text-align: center;
-    height: 100%;
+    height: auto;
     padding-left: 30px;
     }
     
@@ -931,7 +933,7 @@ th {
         }
     
     .bookings-header {
-    margin-top: 55px;
+    margin-top: 60px;
         }
     
     .booking-form {
@@ -1002,6 +1004,7 @@ th {
     .spotify-player {
         align-items: center;
         left: 10px;
+        width: 90%;
 
         }
 
@@ -1046,6 +1049,7 @@ th {
         min-height: 30vh;
         bottom: -1;
         padding-top: 50px;
+        width: 100%;
         }
 
     .booking-form {
@@ -1086,9 +1090,12 @@ th {
         margin-bottom: 20px;
         align-items: center;
         }
-
+    
     .purchase-amazon img {
-        width: 95%;
+        width: 65%;
+        height: 65%;
+        padding: 10px 12.5px 10px 12.5px;
+        border-width: 6px;
         }
     .last-section {
         margin-bottom: -100px;
@@ -1113,6 +1120,7 @@ th {
         min-height: 45vh;
         bottom: -1;
         padding-top: 40px;
+        width: 100%;
         }
     
     .bookings-header {
@@ -1155,6 +1163,7 @@ th {
         bottom: -1;
         padding-top: 40px;
         margin-top: 10px;
+        width: 100%;
         }
     
     .form-group p {
@@ -1167,22 +1176,11 @@ th {
     height: 42vh;
     margin-bottom: 75px;
         }
-    
-    .photo-square {
-    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
-    width: auto;
-    height: auto;
-    background-color: #7f0000;
-    align-items: center;
-    padding: 10px 15px 10px 15px;
-    margin: 12px;
-    text-align: center;
-    display: flex;
-        }
-        
-    .photo-square img {
-    width: auto;
-    height: 190px;
+   
+   .purchase-amazon img {
+        width: 75%;
+        padding: 10px 12.5px 10px 12.5px;
+        border-width: 6px;
         }
     
     ...
@@ -1301,7 +1299,7 @@ th {
     .footer {
         min-height: 50vh;
         bottom: -1;
-        
+        width: 100%;
         }
 
     .booking-form {
