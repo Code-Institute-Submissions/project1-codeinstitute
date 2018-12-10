@@ -107,13 +107,8 @@ at wedding/birthday party/other event.
 As a user, I want to be able to see photos of the band. 
 
 
-
-This section is also where you would share links to any wireframes, mockups, 
-diagrams etc. that 
-you created as part of the design process. These files should themselves either
-be included
-in the project itself (in an separate directory), or just hosted elsewhere 
-online and can be in any format that is viewable inside the browser.
+The wireframe can be viewed on the link below.
+https://docs.google.com/presentation/d/1OSvmCyMw9l1NM5TPv1I4JNiyqv37ptrMF1VSPCYz58A/edit?usp=sharing
 
 Features
 In this section, you should go over the different parts of your project, and 
