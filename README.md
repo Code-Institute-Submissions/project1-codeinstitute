@@ -16,7 +16,7 @@ and book them to play at events.
 parties.
 
 <h3>Strategy Plane</h3> <h4>What are you aiming to achieve in the first place 
-and for whom</h4>
+and for whom?</h4>
 A website for fans, potential fans and customers who may want to book the band 
 for events. 
 
