@@ -900,6 +900,7 @@ th {
 @media (min-width: 1200px) {
     .youtube-player {
         min-height: 550px;
+         padding-left: 140px;
         }
 
     .spotify-player {
@@ -1001,6 +1002,7 @@ th {
 @media (min-width: 768px) and (max-width: 979px) {
     .youtube-player {
         height: 700px;
+         padding-left: 80px;
         }
 
     .spotify-player {
@@ -1116,6 +1118,7 @@ th {
 @media (max-width: 767px) {
     .youtube-player {
         height: 600px;
+        padding-left: 35px;
         }
 
      .spotify-player {
@@ -1204,6 +1207,7 @@ th {
 @media (max-width: 480px) {
     .youtube-player {
         height: 550px;
+        padding-left: 35px;
         }
     .callout-container1 {
         height: 25vh;
