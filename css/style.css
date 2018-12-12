@@ -1,12 +1,11 @@
 /*------------------------------------------------------------Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700');
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice 100, 200, 300, 400, 500, 600, 700|Acme: 100, 200, 300, 400, 500, 600, 700);
 
 /*------------------------------------------------------------Body */
 
 /*------------------------------------------------------------Variables */
- :root {
-            --main-bg-color: #7f0000;
+ :root {    --main-bg-color: #7f0000;
             --main-txt-color: #FFFFFF;
             --main-padding: 15px;
         }
