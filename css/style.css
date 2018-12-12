@@ -890,7 +890,7 @@ th {
     transition: 0.6s;
     }
     
-.tickets:hover {
+.fa-ticket:hover {
     color: #7f0000;
     -ms-transform: rotate(-5deg);
     /* IE 9 */
@@ -900,6 +900,7 @@ th {
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     }
+
 
 
 /*---------------------------------------------Media Queries*/
