@@ -5,10 +5,11 @@
 /*------------------------------------------------------------Body */
 
 /*------------------------------------------------------------Variables */
- :root {    --main-bg-color: #7f0000;
-            --main-txt-color: #FFFFFF;
-            --main-padding: 15px;
-        }
+ :root {    
+  --main-bg-color: #7f0000;
+  --main-txt-color: #FFFFFF;
+  --main-padding: 15px;
+    }
 
         #div1 {
             background-color: var(--main-bg-color);
@@ -28,7 +29,7 @@
             color: #000000;
             padding: var(--main-padding);
         }
-    }
+    
 /*---------------------------------------------Navbar*/
 
 body {
@@ -263,7 +264,7 @@ footer .monkees-footer {
 footer {
     background-color: #D3D3D3;
     color: #000000;
-    bottom: -1;
+    bottom: -1px;
     width: 100%;
     text-align: center;
     min-height: 20vh;
@@ -272,7 +273,7 @@ footer {
 .footer-bottom {
     position: inherit;
     right: 0;
-    bottom: -1;
+    bottom: -1px;
     left: 0;
     padding: 1rem;
     background-color: #D3D3D3;
@@ -370,7 +371,7 @@ footer {
     color: #FAFAFA;
     }
 
-.btn--red:onclick {
+.btn--red:active {
     background-color: #7f0000;
     color: #FAFAFA;
     }
@@ -382,7 +383,7 @@ footer {
 .btn--white {
     background-color: #FFFFFF;
     color: #7f0000;
-    text-decoration: bold;
+    font-weight: bold;
     }
 
 .button-to-bottom {
@@ -964,7 +965,7 @@ th {
     
     .footer {
         min-height: 25vh;
-        bottom: -1;
+        bottom: -1px;
         margin-bottom: 0;
         padding-top: 30px;
         margin-top: 10px;
@@ -1000,7 +1001,7 @@ th {
     font-size: 1em;
     font-family: 'Acme';
         }
-    ...
+    
     }
 
 
@@ -1031,7 +1032,7 @@ th {
     background-color: #7f0000;
     color: #FFFFFF;
     text-align: center;
-    height: 600x;
+    height: 600px;
     padding-left: 30px;
         }
 
@@ -1042,7 +1043,7 @@ th {
         height: 600px;
         }
 
-    ..bookings-callout {
+    .bookings-callout {
         height: 50vh;
         margin-bottom: 30px;
         }
@@ -1058,7 +1059,7 @@ th {
     
     .footer {
         min-height: 30vh;
-        bottom: -1;
+        bottom: -1px;
         padding-top: 50px;
         width: 100%;
         }
@@ -1116,7 +1117,7 @@ th {
     font-size: 1em;
     font-family: 'Acme';
         }
-    ...
+    
     }
 
 
@@ -1141,7 +1142,7 @@ th {
  
     .footer {
         min-height: 45vh;
-        bottom: -1;
+        bottom: -1px;
         padding-top: 40px;
         width: 100%;
         }
@@ -1183,7 +1184,7 @@ th {
         }
     .footer {
         min-height: 40vh;
-        bottom: -1;
+        bottom: -1px;
         padding-top: 40px;
         margin-top: 10px;
         width: 100%;
@@ -1206,7 +1207,6 @@ th {
         border-width: 6px;
         }
     
-    ...
     }
 
 /* Landscape phones and down */
@@ -1322,7 +1322,7 @@ th {
 
     .footer {
         min-height: 50vh;
-        bottom: -1;
+        bottom: -1px;
         width: 100%;
         }
 
@@ -1393,7 +1393,7 @@ th {
     .navbar {
         width: 100%;
         }
-    ...
+    
     }
 
 
@@ -1404,7 +1404,7 @@ th {
 
     .footer {
         min-height: 50vh;
-        bottom: -1;
+        bottom: -1px;
         font-family: 'Acme';
         width: 100%;
         }
@@ -1412,7 +1412,7 @@ th {
     .navbar {
         width: 100%;
         }
-    ...
+    
     }
 
 /*---------------------------------------------*/
