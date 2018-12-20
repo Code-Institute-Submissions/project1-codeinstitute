@@ -15,13 +15,14 @@ and book them to play at events.
 *To publicise availability to perform at events such as weddings and Christmas 
 parties.
 
-<h3>Strategy Plane</h3> <h4>What are you aiming to achieve in the first place 
-and for whom</h4>
+<h3>Strategy Plane</h3> 
+<h4>Aims</h4>
 A website for fans, potential fans and customers who may want to book the band 
 for events. 
 
-<h3>Scope Plane</h3> <h4>Which features based on information from the strategy 
-plane do you want to include in your design? </h4>
+<h3>Scope Plane</h3> 
+<h4>Features included in design based on information from the strategy 
+plane</h4>
 
 Enquiry form - for booking gigs. 
 
@@ -36,8 +37,8 @@ Social sharing buttons - for fans to share music and engage with fellow fans.
 
 Tour date page with button to third party site for tickets
 
-<h3>Structure Plane</h3> <h4>How is the information structured and how is it 
-logically grouped?</h4>
+<h3>Structure Plane</h3> 
+<h4>Structure of Information</h4>
 Interaction Design - I use a traditional navigation system with a navigation bar 
 across the top as well as a band logo functioning as a link to homepage.
 
@@ -66,8 +67,8 @@ the desired sections. I decided to have three types of navigation:
 be suitable for
 students interested in reaching my page about a particular course.[delete]
 
-<h3>Surface Plane</h3> <h4>What will the finished product look like? or what 
-colors typography and design elements will we use? </h4>
+<h3>Surface Plane</h3> 
+<h4>Finished Product</h4>
 
 The design will be consistent and visually appealing to customers/fans. A retro
 theme will be aimed for to match the time of the band's breakout years. 
@@ -228,63 +229,6 @@ Successful (dummy links used)
 
 Across all devices, I was able to successfully complete each user story. 
 
-<h5>Chrome Testing - Homepage</h5>
-Using the Chrome Developer Tools Mobile Audit, I received the following scores - 
-Performance - 72, Progressive Web App - 52, Accessibility - 58, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-Using the Chrome Developer Tools Desktop Audit, I received the following scores - 
-Performance - 94, Progressive Web App - 54, Accessibility - 60, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-<h5>Our Music</h5>
-Using the Chrome Developer Tools Mobile Audit, I received the following scores - 
-Performance - 81, Progressive Web App - 58, Accessibility - 58, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-Using the Chrome Developer Tools Desktop Audit, I received the following scores - 
-Performance - 94, Progressive Web App - 54, Accessibility - 60, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-<h5>Bookings</h5>
-Using the Chrome Developer Tools Mobile Audit, I received the following scores - 
-Performance - 97, Progressive Web App - 58, Accessibility - 62, 
-Best Practices - 80, Search Engine Optimisation - 89.
-
-Using the Chrome Developer Tools Desktop Audit, I received the following scores - 
-Performance - 95, Progressive Web App - 54, Accessibility - 62, 
-Best Practices - 80, Search Engine Optimisation - 89.
-
-<h5>Tour Dates</h5>
-Using the Chrome Developer Tools Mobile Audit, I received the following scores - 
-Performance - 67, Progressive Web App - 58, Accessibility - 59, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-Using the Chrome Developer Tools Desktop Audit, I received the following scores - 
-Performance - 94, Progressive Web App - 54, Accessibility - 60, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-<h5>Photos</h5>
-Using the Chrome Developer Tools Mobile Audit, I received the following scores - 
-Performance - 85, Progressive Web App - 58, Accessibility - 51, 
-Best Practices - 73, Search Engine Optimisation - 89.
-
-Using the Chrome Developer Tools Desktop Audit, I received the following scores - 
-Performance - 72, Progressive Web App - 54, Accessibility - 51, 
-Best Practices - 73, Search Engine Optimisation - 89.
-
-<h5>The Band</h5>
-Using the Chrome Developer Tools Mobile Audit, I received the following scores - 
-Performance - 93, Progressive Web App - 58, Accessibility - 51, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-Using the Chrome Developer Tools Desktop Audit, I received the following scores - 
-Performance - 91, Progressive Web App - 54, Accessibility - 51, 
-Best Practices - 87, Search Engine Optimisation - 89.
-
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
 
 <h5>To listen to The Monkees music on their website and watch videos of old 
 performances.</h5>
