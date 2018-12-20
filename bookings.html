@@ -56,27 +56,27 @@
                 </div>
             </div>
         </nav>
-        
         <!--Main - Change For Each Page-->
         <main>
-            <section>
+            <section class="bookings-page">
                 <div class="row">
                     <div class="bookings-header uppercase">
-                        <h1><span style="font-family:Spicy Rice">Bookings</span></h1>
+                        <h1><span class="spicy-rice">Bookings</span></h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 what-we-do booking-options">
-                        <h2 class="uppercase" style="font-family:ACME">We do weddings, birthdays, retirements, 
+                        <h2 class="acme wwd-booking">We do weddings, birthdays, retirements, 
                         anniversaries, religious celebrations and any other 
                         occasion you want to make extra special!</h2>
                     </div>
                 </div>
+                <hr class="block-divider block-divider--red">
             </section>
-            <section>
-                <div class="form-center">
+            <section class="form-review">
+                <div class="row form-center">
                     <div class="col-xs-12 col-md-12 booking-form">
-                        <h2 class="section-header"><span style="font-family:Spicy Rice">Make An Enquiry</span></h2>
+                        <h2 class="section-header"><span class="spicy-rice">Make An Enquiry</span></h2>
                         <form class="form-booking">
                             <div class="form-group">
                                 <label for="email">Email address</label>
@@ -88,21 +88,21 @@
                             </div>
                             <div class="form-group">
                                 <label for="budget">Budget</label>
-                                <input type="number" class="form-control" id="budget" required>
+                                <input type="number" class="form-control" id="budget" placeholder="€" required>
                             </div>
                             <div class="form-group">
                                 <label for="eventdescription">Event Description</label>
-                                <input type="text" class="form-control" id="eventdescription" required>
+                                <textarea name="message" rows="6" cols="30" class="form-control" id="eventdescription" required>
+                                    </textarea>
                             </div>
                             <button type="submit" class="btn btn--red">Submit Enquiry</button>
                         </form>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="col-xs-12 col-sm-12 reviews">
-                    <h2 class="review-header"><span style="font-family:Spicy Rice">What People Say About Us</span></h2>
-                    <div class="row">
+                <div class="row">
+                    <div class="reviews reviews-booking">
+                         <h2 class="review-header"><span class="spicy-rice">What People Say About Us</span></h2>
+                        <div class="row">
                         <div class="col-xs-12">
                             <div class="media">
                                 <div class="media-left">
@@ -117,38 +117,38 @@
                             </div>
                         </div>
                     </div>
-                    <hr class='block-divider block-divider--white'>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="media testimonials">
-                                <div class="media-left">
-                                    <img src="assets/disco-dancer.png" alt="Disco dancer" class="img-rounded media-object" height=100 width=100>
-                                </div>
-                                <div class="media-body">
+                        <hr class='block-divider block-divider--white'>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="media testimonials">
+                                    <div class="media-left">
+                                        <img src="assets/disco-dancer.png" alt="Disco dancer" class="img-rounded media-object" height=100 width=100>
+                                    </div>
+                                    <div class="media-body">
                                     <blockquote class="quote">
                                         <p class="quotes">"The place was bananas! We had such a great time with The Monkees. Thank you for making our party so special".</p>
                                         <p class="reference">Peter Smith on <cite title="Facebook">Facebook</cite>
                                     </blockquote>
                                 </div>
+                                </div>
                             </div>
-                        </div>
+                        </div>   
                     </div>
+                    
                 </div>
-    
             </section>
         </main>
-        
     
         <!--Footer - Apply To Each Page -->
-    <footer class="container-fluid footer footer-bookings">
-        <div class="row footer-monkees">
+    <footer class="container-fluid footer footer-monkees">
+        <div class="row bookings-footer">
             <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="form-group">
                     <form>
                         <p>Enter your email address below to keep up to date with all The Monkees' news!</p>
                         <input type="email" name="email" placeholder="Enter email address">
+                        <button type="submit" class="btn btn-danger">Subscribe!</button>
                     </form>
-                    <button type="submit" class="btn btn-danger">Subscribe!</button>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8">
