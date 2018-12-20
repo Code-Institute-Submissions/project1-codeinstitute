@@ -5,31 +5,32 @@
 /*------------------------------------------------------------Body */
 
 /*------------------------------------------------------------Variables */
- :root {    
-  --main-bg-color: #7f0000;
-  --main-txt-color: #FFFFFF;
-  --main-padding: 15px;
-    }
 
-        #div1 {
-            background-color: var(--main-bg-color);
-            color: var(--main-txt-color);
-            padding: var(--main-padding);
-            text-align: center;
-        }
+:root {
+    --main-bg-color: #7f0000;
+    --main-txt-color: #FFFFFF;
+    --main-padding: 15px;
+}
 
-        #div2 {
-            background-color: var(--main-bg-color);
-            color: var(--main-txt-color);
-            padding: var(--main-padding);
-        }
+#div1 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+    text-align: center;
+}
 
-        #div3 {
-            background-color: #cccccc;
-            color: #000000;
-            padding: var(--main-padding);
-        }
-    
+#div2 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+}
+
+#div3 {
+    background-color: #cccccc;
+    color: #000000;
+    padding: var(--main-padding);
+}
+
 /*---------------------------------------------Navbar*/
 
 body {
@@ -38,28 +39,25 @@ body {
     overflow-x: hidden;
     width: 100%;
     background-color: #FAFAFA;
-    }
-    
-.row {
-    margin-right: 0;
-    margin-left: 0;
-    }
+}
+
 
 .navbar a {
     color: #FFFFFF;
     text-align: center;
-    }
+}
 
 .sr-only icon-bar {
     color: #FFFFFF;
-    }
+}
 
 .navbar-header {
     background-color: #7f0000;
     color: #FFFFFF;
     font-family: 'Spicy Rice', sans-serif;
     font-weight: 100;
-    }
+    padding-left: 40px;
+}
 
 .navbar {
     margin-bottom: 0;
@@ -71,19 +69,19 @@ body {
     background-color: #7f0000;
     border: 0;
     border-radius: 0;
-    }
+}
 
 .navbar .navbar-brand {
     color: #FFFFFF;
     font-size: 30px;
-    }
+}
 
 .navbar-brand-sm {
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'Spicy Rice', sans-serif;
     width: 100%;
-    }
+}
 
 .navbar .navbar-brand:hover {
     transition: ease-in-out 0.6s;
@@ -96,17 +94,17 @@ body {
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
     color: #FFFFFF;
-    }
+}
 
 .navbar ul {
     text-align: center;
     color: #FFFFFF;
-    }
+}
 
 .navbar-default .navbar-nav a {
     color: #FFFFFF;
 
-    }
+}
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
@@ -114,12 +112,12 @@ body {
     color: #FFFFFF;
     background: transparent;
 
-    }
+}
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
-    }
+}
 
 .navbar-btn {
     border: 0;
@@ -127,13 +125,13 @@ body {
     width: 100px;
     background-color: #f05f40;
     color: #FFFFFF;
-    }
+}
 
 .navbar-btn:hover {
     background-color: #FF0000;
     border-color: #df4929;
     color: #FFFFFF;
-    }
+}
 
 .options {
     color: #FFFFFF;
@@ -142,13 +140,13 @@ body {
     text-decoration: none;
     padding: 5px 8px 0 5px;
     margin: 0 10px;
-    
-    }
+
+}
 
 .options1 {
     transition: 0.6s;
 
-    }
+}
 
 .options1:hover {
     -ms-transform: rotate(-5deg);
@@ -160,11 +158,11 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-    }
+}
 
 .options2 {
     transition: 0.6s;
-    }
+}
 
 .options2:hover {
     -ms-transform: rotate(-5deg);
@@ -176,12 +174,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-    }
+}
 
 .options3 {
     transition: 0.6s;
 
-    }
+}
 
 .options3:hover {
     -ms-transform: rotate(-5deg);
@@ -193,12 +191,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-    }
+}
 
 .options4 {
     transition: 0.6s;
 
-    }
+}
 
 .options4:hover {
     -ms-transform: rotate(-5deg);
@@ -210,12 +208,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-    }
-    
+}
+
 .options5 {
     transition: 0.6s;
 
-    }
+}
 
 .options5:hover {
     -ms-transform: rotate(-5deg);
@@ -227,12 +225,12 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-    }
+}
 
 .options6 {
     transition: 0.6s;
 
-    }
+}
 
 .options6:hover {
     -ms-transform: rotate(-5deg);
@@ -244,53 +242,29 @@ body {
     transform: rotate(-5deg);
     color: white;
     transition: 0.6s;
-    }
+}
 
 .below-navbar {
     margin-top: 60px;
-    }
+}
 
 /*---------------------------------------------Footer*/
 
-footer .monkees-footer {
-    background-color: #FFFFFF;
-    color: #000000;
-    width: 100%;
+.footer-monkees {
     text-align: center;
-    position: fixed;
-    }
-
-
-footer {
-    background-color: #D3D3D3;
-    color: #000000;
-    bottom: -1px;
-    width: 100%;
-    text-align: center;
-    min-height: 20vh;
-    }
-
-.footer-bottom {
-    position: inherit;
     right: 0;
     bottom: -1px;
     left: 0;
     padding: 1rem;
     background-color: #D3D3D3;
+    color: #000000;
+    width: 100%;
     text-align: center;
-    }
-
-.footer-booking-theband {
-    position: inherit
-    }
-
-.last-section {
-    margin-bottom: 20px;
-    }
+}
 
 .contact-envelope {
     font-size: 25px;
-    }
+}
 
 .social-links {
     font-size: 30px;
@@ -298,107 +272,107 @@ footer {
     text-align: center;
     margin-right: 25px;
 
-    }
+}
 
 .footer-heading {
     text-align: center;
-    }
-
-.footer-bookings {
-    background-color: #DCDCDC;
-    min-height: 100vh;
 }
-
-.last-section {
-    height: 60vh;
-    }
 
 .form-group p {
     font-size: 1em;
     font-family: 'Acme';
-    }
+}
 
 /*---------------------------------------------Jumbotron*/
 
 .jumbotron {
     background-color: transparent;
-    }
-
-.jumbotron {
     color: white;
     margin-bottom: 30px;
     width: 100%;
-    }
+}
 
 .jumbotron .lead {
     color: #FFFFFF;
     margin: 25px 0;
     font-weight: bold;
-    }
+}
 
 
 
 /*---------------------------------------------Fonts, Text Stylings, Block Dividers, Buttons*/
 
+a {
+    text-decoration: none;
+}
+
+.spicy-rice {
+    font-family: 'Spicy Rice', sans-serif;
+}
+
+.acme {
+    font-family: 'Acme', sans-serif;
+}
+
 .section-header {
     color: #7f0000;
-    }
+}
 
 .uppercase {
     text-transform: uppercase;
     color: #7f0000;
-    }
+}
 
 .block-divider--white {
     background-color: #FFFFFF;
     font-weight: 200;
     width: 90%;
-    }
+}
 
 .block-divider--red {
     background-color: #7f0000;
-    font-weight: 200;
-    width: 60px;
-    }
+    width: 80%;
+    height: 10px;
+}
 
 .btn--red {
     background-color: #7f0000;
     color: #FFFFFF;
-    }
+}
 
 .btn--red:hover {
     background-color: #7f0000;
     color: #FAFAFA;
-    }
+}
 
 .btn--red:active {
     background-color: #7f0000;
     color: #FAFAFA;
-    }
+}
 
 .btn {
     margin: 10px 5px 10px 5px;
-    }
+}
 
 .btn--white {
     background-color: #FFFFFF;
     color: #7f0000;
     font-weight: bold;
-    }
+}
 
 .button-to-bottom {
     padding-bottom: 6px;
     padding-top: 78px;
-    }
+}
 
 .band-name {
     font-family: 'Spicy+Rice', sans-serif;
-    }
+}
 
-p {
+.history p {
     margin: 0 0 10px;
     padding: 0 20px 0 20px;
-    }
+}
 
 h1,
 h2,
@@ -409,7 +383,8 @@ h6,
 p {
     padding-left: 5px;
     padding-right: 5px;
-    }
+}
+
 h1,
 h2,
 h3,
@@ -423,116 +398,84 @@ h6 {
 
 .social-media {
     background-color: #FFFFFF;
-    }
+}
 
 .wrapper-sm {
     background-color: #FFFFFF;
     height: 500px;
-    }
+}
 
 .tablet-sm-btns a {
     text-align: justify;
     padding: 5px;
-    }
+}
 
 .social-media-header {
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
-    }
+}
 
 .phone-sm-btns {
     font-size: 30px;
     padding: 5px;
     text-align: center;
-    }
+}
 
 .spotify {
     color: #1db954;
 
-    }
+}
 
 .facebook {
     color: #3b5998;
-    }
+}
 
 .apple {
     color: #000000;
-    }
+}
 
 .instagram {
     color: #c13584;
-    }
+}
 
 .amazon {
     color: #ff9900;
-    }
+}
 
 .snapchat {
     color: #fffc00;
-    }
+}
 
 .youtube {
     color: #ff0000;
-    }
+}
 
 .twitter {
     color: #1da1f2;
-    }
+}
 
 .watch {
     margin-top: 15px;
     margin-bottom: 0;
-    }
+}
 
-/*---------------------------------------------Homepage*/
-
-/*--Listen Section*/
-.song-title {
-    font-family: 'Acme';
-    }
-
-.listen-header {
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 60px;
-    }
-
-.container-wrapper--red {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    height: 500px;
-    }
-
-.youtube-wrapper {
-    background-color: #7f0000;
-    }
-
-.youtube-title {
-    background-color: #FFFFFF;
-    }
+/*Homepage*/
 
 /*--Callout Containers*/
 
 .callout-container1 {
-    min-height: 80vh;
     font-family: 'Acme', sans-serif;
     background: url("../assets/monkees-callout-desktop.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
     top: 0px;
-    margin-top: 15px;
-    }
+}
 
 .callout-container2 {
-    min-height: 80vh;
+    min-height: 50vh;
     font-family: 'Acme', sans-serif;
     background: url("../assets/the-monkees-homepage.jpg") no-repeat center;
     -webkit-background-size: cover;
@@ -544,9 +487,7 @@ h6 {
     justify-content: center;
     position: relative;
     margin-top: 0;
-    margin-bottom: 15px;
-
-    }
+}
 
 .callout-container3 {
     font-family: 'Acme', sans-serif;
@@ -559,8 +500,7 @@ h6 {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: -150px;
-    }
+}
 
 
 .opaque-overlay {
@@ -570,52 +510,147 @@ h6 {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    }
+}
 
 .bookings-callout {
-    height: 42vh;
-    margin-bottom: 125px;
-    }
+    height: auto;
+}
 
-/*---------------------------------------------Our Music Page*/
+.homepage-music {
+    margin-top: 10px;
+}
+
+/*--Listen Section*/
+
+.song-title {
+    font-family: 'Acme';
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.listen-header {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-family: 'Spicy Rice', sans-serif;
+}
+
+.container-wrapper--red {
+    background-color: #7f0000;
+    color: #FFFFFF;
+    height: 500px;
+}
+
+.watch-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.youtube-wrapper {
+    background-color: #7f0000;
+}
+
+.youtube-title {
+    background-color: #FFFFFF;
+}
+
+
+
+/*---Our Music Page*/
 
 .spotify-player {
-    align-items: center;
-    left: 140px;
+    left: 180px;
     right: auto;
-    }
+}
 
 .spotify-section {
     min-height: 100vh;
-    }
+}
+
+.spotify-text {
+    font-family: 'Acme', sans-serif;
+    color: #7f0000;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.purchase {
+    padding: 5px;
+}
+
+.amazon-wrapper {
+    display: inline-block;
+}
+
+.purchase-amazon {
+    padding-left: 60px;
+    padding-bottom: 5px;
+}
 
 .purchase-amazon img {
-    padding: 10px 12.5px 10px 12.5px;
     border-color: #FAFAFA;
     border-style: solid;
     border-width: 6px;
     background-color: #7f0000;
-    width: 225px;
-    }
+    width: 100%;
+}
+
+.purchase-amazon:hover p {
+    visibility: visible;
+}
+
+.amazon-overlay {
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.amazon-wrapper:hover .amazon-overlay {
+    opacity: 1;
+}
+
+.amazon-wrapper .fa-amazon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.amazon-wrapper .fa-amazon:hover {
+    color: #FFFFFF;
+}
 
 .our-music-header {
     color: #7f0000;
-    }
+}
 
-/*---------------------------------------------The Band*/
+/*--The Band*/
+
+.the-band-top {
+    background-color: #FAFAFA;
+}
+
 .about-photo {
     width: 100%;
     background-color: #7f0000;
     align-items: center;
-    }
+}
+
 .about-photo img {
     width: 99.5%;
     padding: 15px;
-    
-    }
-.history p{
- font-family: 'Muli', sans-serif;
-    }
+
+}
+
+.history p {
+    font-family: 'Muli', sans-serif;
+}
 
 .history-wrapper1 {
     background-color: #7f0000;
@@ -623,7 +658,7 @@ h6 {
     text-align: center;
     height: 925px;
 
-    }
+}
 
 .history-wrapper2 {
     background-color: #FFFFFF;
@@ -631,7 +666,7 @@ h6 {
     text-align: center;
     height: 1250px;
 
-    }
+}
 
 .history-wrapper-smred {
     background-color: #7f0000;
@@ -639,14 +674,14 @@ h6 {
     text-align: center;
     height: auto;
     padding-left: 30px;
-    }
-    
+}
+
 .history-wrapper-smred-pt {
     background-color: #7f0000;
     color: #FFFFFF;
     text-align: center;
     padding-left: 30px;
-    }
+}
 
 .history-wrapper-smwhite {
     background-color: #FFFFFF;
@@ -654,21 +689,20 @@ h6 {
     text-align: center;
     height: 100%;
     padding-left: 30px;
-    }
+}
 
 .history-wrapper-smred img {
     height: 150px;
-    }
+}
 
 .history-wrapper-smyellow img {
     height: 150px;
-    }
+}
 
 
 .history {
-    padding-bottom: 20px;
-    width: 98%;
-    }
+    width: 100%;
+}
 
 .history-info {
     font-family: 'Muli', sans-serif;
@@ -677,27 +711,27 @@ h6 {
     padding-left: 5px;
     padding-right: 5px;
     margin: 3px;
-    }
+}
 
 /*News*/
 
 .news-title {
     margin-top: 60px;
-    }
+}
 
 .news-headline {
     font-family: 'Acme', sans-serif;
     font-weight: 500;
     text-align: center;
 
-    }
+}
 
 .news-item {
     font-family: 'Acme', sans-serif;
     font-size: 20px;
 
 
-    }
+}
 
 .newswrapper-red {
     background-color: #7f0000;
@@ -706,7 +740,7 @@ h6 {
     margin-right: auto;
     margin-left: auto;
     max-width: 600px;
-    }
+}
 
 .storywrapper {
     color: #000000;
@@ -714,19 +748,19 @@ h6 {
     font-size: 22px;
     padding: 5px 20px 5px 20px;
     margin-right: 0px;
-    }
+}
 
 .featured-image {
     width: 100%;
     height: auto;
     overflow: hidden;
     text-align: center;
-    }
+}
 
 .band-history {
     font-size: 20px;
     color: #000000;
-    }
+}
 
 .band-history,
 p {
@@ -734,32 +768,32 @@ p {
     padding-right: 2px;
     text-transform: none;
     font-size: 1.2em;
-    }
+}
 
 /*---------------------------------------------Photos*/
 
 .insta-note {
     margin-top: 0;
-    margin-bottom: -15px;
+    margin-bottom: -5px;
     background-color: #7f0000;
     color: #FFFFFF;
-    min-height: 25vh;
+    min-height: 10vh;
     padding-top: 20px;
-    padding-bottom: 20px;
-    }
+    padding-bottom: 5px;
+}
 
-.photo-gallery  {
+.photo-gallery {
     align-items: center;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-    }
-    
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 .opaque-overlay3 {
     position: absolute;
     top: 0;
@@ -767,110 +801,137 @@ p {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    }
+}
 
- 
- div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
-  padding: 2px 10px 10px 30px;
-  align-items: center;
-    }
-  
-  div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img{
-  height: 185px;
-  width: 185px;
-  }
-  
+
+div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
+    padding: 2px 10px 10px 30px;
+    align-items: center;
+}
+
+div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img {
+    height: 185px;
+    width: auto;
+}
+
+.thumbnails {
+    width: 185px;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*---------------------------------------------Bookings Page*/
+
+.form-review {
+    min-height: 95vh;
+}
+
+
+.reviews-booking {
+    background-color: #7f0000;
+}
+
 .form-center {
     text-align: center;
     margin: auto 0;
-    background-color: #FAFAFA;
-    }
+    background-color: #cccccd;
+}
 
-    
+
 .booking-form {
-    background-color: #FAFAFA;
+    background-color: #cccccd;
     align-items: center;
-    }
+}
 
 .list-items {
     font-size: 26px;
-    }
+}
 
 .bookinglist {
     text-align: center;
     background-color: #7f0000;
     color: #FAFAFA;
     max-width: 200px;
-    }
+}
+
 .bookingoptions {
     background-color: #FAFAFA;
     color: #000000;
-    }
-    
+}
+
 /* Quotes */
 
 .reviews {
     text-align: center;
     font-family: 'Acme', sans-serif;
     color: #7f0000;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
     padding-top: 10px;
     margin-top: 0;
-    margin-bottom: 20px;
     align-items: center;
-    }
+    width: 100%;
+    border-color: #7f0000;
+    border-width: 5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+}
 
 .quotes .page-header {
     margin-bottom: 10px;
     color: #FFFFFF;
-
-    }
+}
 
 .bookings-header {
     margin-top: 60px;
-    }
+}
 
 
 .blockquote.quote {
     border-left: 0;
-    }
+}
 
 .quotes {
     font-family: 'Acme', sans-serif;
     color: #7f0000;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
     margin-bottom: 30px;
     width: 90%;
-    }
+}
 
 .testimonials {
     padding-bottom: 15px;
-    }
+}
 
 .reference {
     width: 90%;
-    }
+}
 
 .form-booking {
     margin-top: 10px;
-    }
+}
 
-/*---------------------------------------------Buy Tickets*/
+/*Buy Tickets*/
+
 .tour-dates-header {
     color: #7f0000;
     margin-top: 60px;
-    }
+}
 
 
 .table-striped,
 th {
     text-align: center;
-    }
+}
 
 th {
     text-transform: uppercase;
-    }
+}
 
 .table {
     font-family: 'Acme', sans-serif;
@@ -881,13 +942,13 @@ th {
     margin-right: auto;
     overflow: scroll;
     min-height: 100vh;
-    }
+}
 
 .tickets {
     color: #7f0000;
     transition: 0.6s;
-    }
-    
+}
+
 .fa-ticket:hover {
     color: #7f0000;
     -ms-transform: rotate(-5deg);
@@ -897,128 +958,178 @@ th {
     -moz-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    }
-
-
+}
 
 /*---------------------------------------------Media Queries*/
 
 /* Large desktop */
 
 @media (min-width: 1200px) {
+
+    .navbar {
+        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        z-index: 1;
+        background-color: #7f0000;
+        border: 0;
+        border-radius: 0;
+        padding-left: 10px;
+    }
+
     .youtube-player {
         min-height: 550px;
-         padding-left: 140px;
-        }
+        padding-left: 140px;
+    }
 
     .spotify-player {
         align-items: center;
-        left: 200px;
+        left: 240px;
         right: 250px;
-        }
+    }
 
     .history-wrapper-smred {
         background-color: #7f0000;
         color: #FFFFFF;
         text-align: center;
         height: 100%;
-        }
-    
+    }
+
     .history-wrapper-smred-pt {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    text-align: center;
-    height: 500px;
-    padding-left: 30px;
-        }
+        background-color: #7f0000;
+        color: #FFFFFF;
+        text-align: center;
+        height: auto;
+        padding-left: 30px;
+    }
 
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
         height: 100%
-        }
-    .bookings-callout {
-        height: 60vh;
-        margin-bottom: 45px;
-        }
-    
-    .bookings-header {
-    margin-top: 60px;
-        }
-    
-    .booking-form {
-    width: 100%;
-    align-items: center;
-    text-align: center;
-    margin: auto 0;
     }
+    .bookings-callout {
+        height: auto;
+    }
+
+    .bookings-header {
+        margin-top: 60px;
+    }
+
     
     .booking-form form {
-    width: 60%;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+        width: 60%;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
-    
-    
-    .footer {
+
+    .footer-monkees {
         min-height: 25vh;
         bottom: -1px;
         margin-bottom: 0;
-        padding-top: 30px;
-        margin-top: 10px;
-        }
-        
-    .last-section {
-        margin-bottom: -10px;
-        }
+        padding-top: 20px;
+    }
 
     .booking-form {
         background-color: #FAFAFA;
-        align-items: center;
         padding-left: 150px;
         padding-right: 190px;
-        }
+    }
+    
+    .bookings-footer {
+        height: 25vh;
+    }
 
     .reviews {
-        padding-left: 150px;
-        padding-right: 190px;
-        }
+        padding-left: 85px;
+        padding-right: 40px;
+        text-align: center;
+        width: 95%;
+        left: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-review {
+        min-height: 100vh;
+    }
 
     .what-we-do {
         padding-left: 150px;
         padding-right: 190px;
-        }
+    }
+
+    .purchase-amazon {
+        padding-left: 60px;
+        padding-bottom: 5px;
+    }
 
     .purchase-amazon img {
         width: 95%;
-        }
-    
-    
-    .form-group p {
-    font-size: 1em;
-    font-family: 'Acme';
-        }
-    
     }
+
+
+
+    .form-group p {
+        font-size: 1em;
+        font-family: 'Acme';
+    }
+
+    .callout-container1 {
+        width: 100%;
+        height: 75vh;
+        background: url("../assets/monkees-callout-desktop.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .callout-container2 {
+        min-height: 70vh;
+        font-family: 'Acme', sans-serif;
+        background: url(../assets/the-monkees-homepage.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+    }
+    .homepage-callout {
+        height: 75vh;
+
+    }
+
+    #song {
+        width: 300px;
+        display: inline-block;
+    }
+
+    .photo-square img {
+        width: auto;
+        height: 165px;
+    }
+}
 
 
 /* Portrait tablet to landscape and desktop */
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     .youtube-player {
         height: 700px;
-         padding-left: 80px;
-        }
+        padding-left: 80px;
+    }
 
     .spotify-player {
         align-items: center;
         left: 30px;
         width: 90%;
 
-        }
+    }
 
     .history-wrapper-smred {
         background-color: #7f0000;
@@ -1026,71 +1137,77 @@ th {
         text-align: center;
         height: 600px;
         padding-left: 30px;
-        }
-    
+    }
+
     .history-wrapper-smred-pt {
-    background-color: #7f0000;
-    color: #FFFFFF;
-    text-align: center;
-    height: 600px;
-    padding-left: 30px;
-        }
+        background-color: #7f0000;
+        color: #FFFFFF;
+        text-align: center;
+        height: 600px;
+        padding-left: 30px;
+    }
 
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
         height: 600px;
-        }
+    }
 
     .bookings-callout {
-        height: 50vh;
-        margin-bottom: 30px;
-        }
-    
-    .insta-note {
-    margin-top: 0;
-    background-color: #7f0000;
-    color: #FFFFFF;
-    min-height: 15vh;
-    padding-top: 20px;
-    padding-bottom: 20px;
+        height: auto;
     }
-    
-    .footer {
-        min-height: 30vh;
+
+    .insta-note {
+        margin-top: 0;
+        background-color: #7f0000;
+        color: #FFFFFF;
+        min-height: 15vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-monkees {
+        min-height: 25vh;
         bottom: -1px;
         padding-top: 50px;
+        padding-left: 100px;
         width: 100%;
-        }
+    }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 150px;
         padding-right: 190px;
-        }
-    
+    }
+
     .booking-form form {
-    width: 75%;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-        }
-    
+        width: 75%;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .bookings-header {
-    margin-top: 60px;
-        }
+        margin-top: 60px;
+    }
+
     .reviews {
-        padding-left: 150px;
-        padding-right: 190px;
-        }
+        padding-left: 80px;
+        padding-right: 90px;
+        text-align: center;
+        width: 90%;
+        left: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .what-we-do {
         padding-left: 150px;
         padding-right: 190px;
-        }
+    }
 
     .review-header {
         text-align: center;
@@ -1101,24 +1218,56 @@ th {
         margin-top: 10px;
         margin-bottom: 20px;
         align-items: center;
-        }
-    
+    }
+
+    .purchase-amazon {
+        padding-left: 60px;
+        padding-bottom: 5px;
+    }
+
     .purchase-amazon img {
-        width: 65%;
-        height: 65%;
+        width: 90%;
+        height: 90%;
         padding: 10px 12.5px 10px 12.5px;
         border-width: 6px;
-        }
-    .last-section {
-        margin-bottom: -100px;
-        }
-    
-    .form-group p {
-    font-size: 1em;
-    font-family: 'Acme';
-        }
-    
     }
+
+
+    .form-group p {
+        font-size: 1em;
+        font-family: 'Acme';
+    }
+
+    .callout-container1 {
+        width: 100%;
+        height: 400px;
+        background: url("../assets/monkees-callout-desktop.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .homepage-callout {
+        height: 400px;
+    }
+
+    #song {
+        width: 300px;
+        display: inline-block;
+    }
+
+    .btn-subscribe {
+        width: 90px;
+    }
+
+    .band-history,
+    p {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+}
 
 
 /* Landscape phone to portrait tablet */
@@ -1126,158 +1275,195 @@ th {
 @media (max-width: 767px) {
     .youtube-player {
         height: 600px;
-        padding-left: 35px;
+    }
+    
+    .youtube-wrapper {
+        background-color: #7f0000;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         }
-
-     .spotify-player {
+    
+    .spotify-player {
         align-items: center;
         left: 5px;
-        width: 90%;
+        width: 100%;
 
-        }
- 
+    }
+
     .navbar {
         width: 100%
-        }
- 
-    .footer {
+    }
+
+    .footer-monkees {
         min-height: 45vh;
         bottom: -1px;
         padding-top: 40px;
         width: 100%;
-        }
-    
+    }
+
     .bookings-header {
-    margin-top: 60px;
-        }
-    
+        margin-top: 60px;
+    }
+
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 40px;
         padding-right: 40px;
-        }
+    }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 100px;
         padding-right: 150px;
-        }
-    
+    }
+
     .booking-form form {
-    width: 75%;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-        }
-    
+        width: 75%;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .reviews {
-        padding-left: 10px;
-        padding-right: 15px;
-        }
+        text-align: center;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .what-we-do {
         padding-left: 14px;
         padding-right: 19px;
-        }
-    .footer {
+    }
+
+    .wwd-booking {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2em;
+        color: #7f0000;
+    }
+
+    #footer {
         min-height: 40vh;
         bottom: -1px;
         padding-top: 40px;
         margin-top: 10px;
         width: 100%;
-        }
-    
+    }
+
     .form-group p {
-    font-size: 1em;
-    font-family: 'Acme';
-    padding-top: 40px;
-        }
-    
+        font-size: 1em;
+        font-family: 'Acme';
+        padding-top: 40px;
+    }
+
     .bookings-callout {
-    height: 42vh;
-    margin-bottom: 75px;
-        }
-   
-   .purchase-amazon img {
+        height: auto;
+    }
+
+    .purchase-amazon {
+        padding-left: 120px;
+        padding-bottom: 5px;
+    }
+
+    .purchase-amazon img {
         width: 75%;
         padding: 10px 12.5px 10px 12.5px;
         border-width: 6px;
-        }
-    
     }
+
+
+    .homepage-callout {
+        height: 40vh;
+    }
+
+    .callout-container1 {
+        width: 100%;
+        height: 40vh;
+        background: url("../assets/monkees-callout-desktop.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #song {
+        width: 300px;
+        display: inline-block;
+    }
+
+    .band-history,
+    p {
+        padding-left: 2px;
+        padding-right: 2px;
+        text-transform: none;
+        font-size: 1.2em;
+    }
+}
 
 /* Landscape phones and down */
 
 @media (max-width: 480px) {
     .youtube-player {
-        height: 550px;
-        padding-left: 35px;
-        }
+        width: 100%;
+    }
     .callout-container1 {
-        height: 25vh;
-        width: 100vw;
+        height: 35vh;
         font-family: 'Acme', sans-serif;
         background: url("../assets/the-monkees-smallscreen.jpeg") no-repeat center;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
         background-size: contain;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: -125px;
-        margin-bottom: -240px;
-        }
+        margin-top: 0;
+    }
 
     .opaque-overlay1 {
         display: none;
-        }
-        
+    }
+
     .band-history {
         padding-left: 35px;
         padding-right: 15px;
-        }
-        
+    }
+
     .history-wrapper-smred {
         background-color: #7f0000;
         color: #FFFFFF;
         text-align: center;
         height: auto;
-        }
-        
-    
-        
+    }
+
     .history-wrapper-smwhite {
         background-color: #FFFFFF;
         color: #7f0000;
         text-align: center;
         height: auto;
-        }
-        
+        width: 100%;
+        left: -8px;
+    }
+
     .history-info {
         width: 90%;
         font-size: 18px;
         padding: 10px 5px 3px 10px;
-        }
+    }
 
-       .news-item {
+    .news-item {
         font-family: 'Acme', sans-serif;
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        }
+    }
     .spotify-player {
-        align-items: center;
-        left: 5px;
-        width: 80%
-        }
+        width: 98%
+    }
 
     .callout-container2 {
-        min-height: 80vh;
+        min-height: 50vh;
         font-family: 'Acme', sans-serif;
         color: #7f0000;
         background: url("../assets/the-monkees-homepage.jpg") no-repeat center;
@@ -1291,7 +1477,7 @@ th {
         position: relative;
         margin-top: 0px;
 
-        }
+    }
 
     .callout-container3 {
         font-family: 'Acme', sans-serif;
@@ -1300,101 +1486,114 @@ th {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        }
+
+    }
     .bookings-callout {
-        height: 50vh;
-        margin-bottom: 125px;
-        }
+        height: auto;
+    }
+
+    .wwd-booking {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2em;
+        color: #7f0000;
+    }
 
     .the-band {
         width: 100%;
-        }
+    }
 
     .reference {
         padding-top: 0;
         width: 80%;
-        }
+    }
 
-    .footer {
+    .footer-monkees {
         min-height: 50vh;
         bottom: -1px;
         width: 100%;
-        }
+        margin-top: -1px;
+    }
 
     .booking-form {
         background-color: #FAFAFA;
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
-        }
+    }
 
     .what-we-do {
         padding-left: 2px;
         padding-right: 2px;
-        }
+    }
+
+    .purchase-amazon {
+        padding-left: 60px;
+        padding-bottom: 5px;
+    }
 
     .purchase-amazon img {
         width: 85%;
         margin-left: 0;
-        }
-    
-    .social-links {
-    font-size: 25px;
-    margin-left: 5px;
-    text-align: center;
-    margin-right: 5px;
-        }
+    }
 
-    .watch {
-    margin-top: 15px;
-    margin-bottom: -15px;
-        }
-    
-    .last-section {
-        margin-bottom: 80px;
-        }
-    
+    .social-links {
+        font-size: 25px;
+        margin-left: 5px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .watch {}
+
     .form-group p {
-    font-size: 1em;
-    font-family: 'Acme';
-        }
-        
+        font-size: 1em;
+        font-family: 'Acme';
+    }
+
     .photo-square {
-    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
-    width: auto;
-    height: auto;
-    background-color: #7f0000;
-    align-items: center;
-    padding: 10px 5px 10px 5px;
-    margin: 2px;
-    text-align: center;
-    display: flex;
-        }
-        
+        border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%;
+        width: auto;
+        height: auto;
+        background-color: #7f0000;
+        align-items: center;
+        padding: 10px 5px 10px 5px;
+        margin: 2px;
+        text-align: center;
+        display: flex;
+    }
+
     .photo-square img {
-    width: auto;
-    height: 135px;
-        }
-        
-    div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
-      padding: 0px;
-      }
-  
-     div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img{
-      height: 150px;
-      width: 150px;
-      }
- 
+        width: auto;
+        height: 135px;
+    }
+
+    .imagetiles {
+        margin-left: 20px;
+        margin-right: auto;
+        display: block;
+    }
+
+    div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
+        padding: 0px;
+    }
+
+    div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 img {
+        height: auto;
+        width: 150px;
+    }
+
     .navbar {
         width: 100%;
-        }
-    
     }
+
+    .homepage-callout {
+        height: 35vh;
+    }
+
+    .bookings-page {}
+
+}
 
 
 /* Smaller Phones */
@@ -1402,29 +1601,41 @@ th {
 @media (min-width: 250px) and (max-width: 321px) {
 
 
-    .footer {
-        min-height: 50vh;
+    .footer-monkees {
+        min-height: 65vh;
         bottom: -1px;
         font-family: 'Acme';
         width: 100%;
-        }
-        
-    .navbar {
-        width: 100%;
-        }
-    
     }
 
-/*---------------------------------------------*/
+    .navbar {
+        width: 100%;
+    }
 
+    .homepage-callout {
+        height: 35vh;
+    }
 
-/*---------------------------------------------*/
+    .callout-container3 {
+        font-family: 'Acme', sans-serif;
+        color: #7f0000;
+        background: url("../assets/monkees-callout-desktop.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        margin-top: -1px;
+    }
 
+    .purchase-amazon {
+        padding-left: 60px;
+        padding-bottom: 5px;
+    }
 
-/*---------------------------------------------*/
+    .wwd-booking {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2em;
+        color: #7f0000;
+    }
 
-
-/*---------------------------------------------*/
-
-
-/*---------------------------------------------*/
+}
